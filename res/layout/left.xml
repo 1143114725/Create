@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="1dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/left_login_realayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/login_margin_top_small"
+            android:layout_weight="14" >
+
+            <ImageView
+                android:id="@+id/left_login_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/icon_username" />
+
+            <TextView
+                android:id="@+id/user_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:textSize="@dimen/adpter_text_size"
+                android:layout_marginLeft="@dimen/login_margin_top"
+                android:layout_toRightOf="@+id/left_login_iv"
+                android:text="@string/user_name"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" 
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/login_margin_top_small"
+             android:gravity="bottom">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/small_locate"
+                android:textColor="@color/gray"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.01dip"
+                android:background="@color/gray" />
+
+            <RelativeLayout
+                android:id="@+id/left_home_page"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_margin_top"
+                android:layout_marginTop="@dimen/login_margin_top" >
+
+                <ImageView
+                    android:id="@+id/left_home_iv"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_margin_top_big"
+                    android:focusable="true"
+                    android:src="@drawable/icon_star_click" />
+
+                <TextView
+                    android:id="@+id/left_home_tV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_margin_top_big"
+                    android:layout_toRightOf="@+id/left_home_iv"
+                    android:text="@string/home_page"
+                    android:textSize="@dimen/index_button_top"
+                    android:textColor="@color/sky_blue" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.01dip"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+            <RelativeLayout
+                android:id="@+id/left_upload"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_margin_top"
+                android:layout_marginTop="@dimen/login_margin_top" >
+
+                <ImageView
+                    android:id="@+id/left_upload_iv"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_margin_top_big"
+                    android:src="@drawable/icon_upload" />
+
+                <TextView
+                    android:id="@+id/left_upload_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_margin_top_big"
+                    android:layout_toRightOf="@+id/left_upload_iv"
+                    android:text="@string/upload"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/index_button_top"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.01dip"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+            <RelativeLayout
+                android:id="@+id/left_knowleage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_margin_top"
+                android:layout_marginTop="@dimen/login_margin_top" >
+
+                <ImageView
+                    android:id="@+id/left_knowleage_iv"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_margin_top_big"
+                    android:src="@drawable/icon_knowledge" />
+
+                <TextView
+                    android:id="@+id/left_knowleage_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_margin_top_big"
+                    android:layout_toRightOf="@+id/left_knowleage_iv"
+                    android:text="@string/knowleage"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/index_button_top" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.01dip"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+            <RelativeLayout
+                android:id="@+id/left_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginBottom="@dimen/login_margin_top"
+                android:layout_marginTop="@dimen/login_margin_top">
+
+                <ImageView
+                    android:id="@+id/left_setting_iv"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_margin_top_big"
+                    android:src="@drawable/icon_setting" />
+
+                <TextView
+                    android:id="@+id/left_setting_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_margin_top_big"
+                    android:layout_toRightOf="@+id/left_setting_iv"
+                    android:text="@string/set"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/index_button_top" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.01dip"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_margin_top_big"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:layout_marginTop="@dimen/login_margin_top_small"
+                android:text=""
+                android:background="@drawable/njzhongchuang"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/gray" 
+                android:textSize="@dimen/adpter_text_size"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_margin_top_big"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:layout_marginTop="@dimen/login_margin_top_big"
+                android:text="江苏中创市场调研咨询有限公司"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/adpter_text_size" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_margin_top" >
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_margin_top_big"
+                    android:src="@drawable/icon_phone" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_margin_top"
+                    android:layout_toRightOf="@+id/imageView6"
+                    android:layout_marginTop="@dimen/login_margin_top_small"
+                    android:text="13645191939"
+                    android:textSize="@dimen/adpter_text_size"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:background="@color/gray" />
+
+</RelativeLayout>

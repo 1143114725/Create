@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/directory"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/login_margin_top_big"
+        android:src="@drawable/icon_directory" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/home_page"
+        android:textColor="#444"
+        android:textSize="@dimen/index_detail"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/head_subscibe_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/login_margin_top_big"
+        android:src="@drawable/icon_subscibe" />
+
+    <ImageView
+        android:id="@+id/new_survey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/head_subscibe_iv"
+        android:layout_marginRight="@dimen/login_margin_top_big"
+        android:src="@drawable/icon_point" />
+
+</RelativeLayout>

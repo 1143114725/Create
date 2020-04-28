@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="#FFFFFF" />   <!-- 填充  颜色   -->
+
+<corners 
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" 
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="0dp"/>
+    <!-- 圆角，你也可以对不同的角设置不同的数值 -->
+    <stroke
+        android:width="1dp"
+        android:color="#c94444" />    <!-- 宽度  0.01  dp  红色  颜色    边框   -->
+
+    <padding
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp" />    <!-- 上下  左右  填充   距离  这个指的是   里头的 控件  离左边  右边 的距离   上边  下边的 距离    -->
+
+</shape>

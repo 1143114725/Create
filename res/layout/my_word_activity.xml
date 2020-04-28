@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_dialog_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:id="@+id/survey_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/login_margin_top"
+                android:paddingRight="@dimen/login_margin_top"
+                android:maxLines="2"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/survey_title_before"
+                android:textColor="#444"
+                android:textSize="@dimen/index_detail"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big" >
+
+            <TextView
+                android:id="@+id/survey_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/survey_id"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big" >
+
+            <TextView
+                android:id="@+id/publish_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/publish_time"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"         
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big" >
+
+            <TextView
+                android:id="@+id/inner_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/inner_done"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:scrollbars="none" >
+
+            <TextView
+                android:id="@+id/survey_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_margin_top"
+                android:layout_marginBottom="@dimen/login_margin_top"
+                android:gravity="left"
+                android:lineSpacingMultiplier="1.4"
+                android:text="@string/survey_description"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+        </ScrollView>
+    </LinearLayout>
+    
+    
+
+
+</RelativeLayout>

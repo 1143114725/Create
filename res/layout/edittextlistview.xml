@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="@dimen/login_margin_top_big"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_margin_top"
+            android:layout_weight="15"
+            android:hint="@string/input_content"
+            android:paddingLeft="@dimen/login_margin_top"
+            android:paddingRight="@dimen/login_margin_top"
+            android:textColor="#222"
+            android:textSize="@dimen/index_detail" />
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/login_margin_top"
+            android:background="@drawable/img_cancel"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/login_margin_top"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nav_publish_normal"
+            android:padding="@dimen/login_margin_top"
+            android:text="@string/new_add"
+             android:layout_marginRight="@dimen/login_margin_top"
+            android:visibility="gone"
+            android:textColor="@color/white"
+           />
+         <!-- 数据字典确认 -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nav_publish_normal"
+            android:padding="@dimen/login_margin_top"
+            android:text="@string/new_submit"
+            android:layout_marginLeft="@dimen/login_margin_top"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/edittextListview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_margin="@dimen/login_margin_top" >
+    </ListView>
+
+</LinearLayout>

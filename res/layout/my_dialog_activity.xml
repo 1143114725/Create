@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ll_hos_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlebar_lightgray_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/login_margin_top"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip"
+        android:paddingTop="@dimen/login_margin_top" >
+        <TextView
+            android:id="@+id/word_tv"
+            style="@style/text_white_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/s_word_explain"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/local_text_size"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/prompt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:lineSpacingExtra="@dimen/login_margin_top"
+            android:paddingLeft="@dimen/login_margin_top"
+            android:paddingRight="@dimen/login_margin_top"
+            android:paddingTop="@dimen/login_margin_top"
+            android:textColor="@color/black"
+            android:textSize="@dimen/local_text_size" />
+    </ScrollView>
+
+</LinearLayout>

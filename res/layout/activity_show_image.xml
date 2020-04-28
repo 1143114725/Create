@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 采用矩阵matrix对图片进行控制 -->
+
+<!-- 
+    <RelativeLayout
+        android:id="@+id/imageRe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+ -->
+        <ImageView
+            android:id="@+id/show_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dip"
+            android:scaleType="center" />
+     <!--
+    </RelativeLayout>
+    android:scaleType="matrix" -->
+
+</RelativeLayout>

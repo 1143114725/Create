@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#2E2E2E" 
+    android:gravity="center"
+    android:orientation="vertical" >
+    <!--  #E0EEE0 -->
+
+    <TextView
+        android:id="@+id/time_title"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/choose_date"
+        android:textColor="@color/white"
+        android:textSize="@dimen/total_index_detail"
+        android:textStyle="bold" />
+
+   <!--  <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_gravity="center"
+        android:background="#40E0D0" /> -->
+
+    <LinearLayout
+        android:id="@+id/timePicker1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center" >
+
+        <cn.dapchina.newsupper.view.WheelView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <cn.dapchina.newsupper.view.WheelView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <cn.dapchina.newsupper.view.WheelView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <cn.dapchina.newsupper.view.WheelView
+            android:id="@+id/hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <cn.dapchina.newsupper.view.WheelView
+            android:id="@+id/mins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <cn.dapchina.newsupper.view.WheelView
+            android:id="@+id/secords"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+   <!--  <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_gravity="center"
+        android:background="#40E0D0" /> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/time_select"
+        android:gravity="center" >
+
+         <TextView
+            android:id="@+id/time_left_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/total_index_detail"
+            android:text="@string/cancel"
+            android:textColor="#000000" />
+
+        <View
+            android:id="@+id/dialog_builder_view"
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="#C1CDC1" />
+
+        <TextView
+            android:id="@+id/time_right_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/total_index_detail"
+            android:text="@string/ok"
+            android:textColor="#000000" />
+        
+       <!--  <Button
+            android:id="@+id/btn_datetime_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_dismiss"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/adpter_text_size" />
+
+        <Button
+            android:id="@+id/btn_datetime_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_dismiss"
+            android:gravity="center"
+            android:text="@string/cancle"
+            android:textColor="@color/white"
+            android:textSize="@dimen/adpter_text_size" /> -->
+    </LinearLayout>
+
+</LinearLayout>

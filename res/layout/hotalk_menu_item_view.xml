@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <!--
+    大树动画   修改 布局   
+    <View
+        android:id="@+id/myDivider"
+        android:layout_width="fill_parent"
+        android:layout_height="0.01dip"
+        android:background="@color/gray1"
+         />
+    显示内容-->
+
+    <ImageView
+        android:id="@+id/menu_item_view_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_margin_top_small"
+        android:layout_marginRight="@dimen/login_margin_top_small"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/menu_item_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#676767"
+        android:textSize="@dimen/local_text_size" />
+
+</LinearLayout>

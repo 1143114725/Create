@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/progress_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/main_back"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingBottom="30dp"
+    android:paddingRight="30dp" >
+
+    <!-- android:background="#88f1f1f1" -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/index_button_top"
+        android:gravity="center"
+        android:text="@string/update_app"
+        android:textColor="@color/white"
+        android:textSize="@dimen/adpter_text_size"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/progressDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/index_button_top"
+        android:gravity="left"
+        android:textColor="@color/white"
+        android:textSize="@dimen/local_text_size"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/content"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/index_button_top"
+        android:gravity="left"
+        android:textColor="@color/white"
+        android:textSize="@dimen/local_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/notice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/index_button_top"
+        android:gravity="left"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/local_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="gone" />
+
+    <!--
+         <TextView
+        android:id="@+id/progressDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/local_text_size" />
+    -->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="@dimen/index_button_top"
+        android:max="100"
+        android:progressDrawable="@drawable/progress_bg" />
+
+    <TextView
+        android:id="@+id/progressInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0/100"
+        android:textColor="@color/white"
+        android:textSize="@dimen/local_text_size"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/index_button_top"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/update_cancel_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/main_clic"
+            android:text="@string/cancle"
+            android:textColor="@color/white"
+            android:textSize="@dimen/adpter_text_size"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/update_ok_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/main_clic"
+            android:text="@string/update"
+            android:textColor="@color/white"
+            android:textSize="@dimen/adpter_text_size"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+</LinearLayout>

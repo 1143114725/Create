@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/directionsPanelTablet"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bottombar_portrait_565"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingBottom="9.0dip"
+    android:paddingLeft="6.0dip"
+    android:paddingRight="4.0dip"
+    android:paddingTop="9.0dip" >
+
+    <TextView
+        android:id="@+id/map_search_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/road_line"
+        android:textColor="@color/white"
+        android:textSize="16.0sp"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/city_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_city"
+            android:textSize="16.0sp" />
+
+        <EditText
+            android:id="@+id/city2_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_city2"
+            android:textSize="16.0sp"
+            android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/start_point_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/start_point_hit"
+        android:textSize="16.0sp" />
+
+    <EditText
+        android:id="@+id/end_point_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/end_point_hit"
+        android:textSize="16.0sp" />
+
+    <RadioGroup
+        android:id="@+id/travel_type_rg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginTop="1.0dip"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/driving_rb"
+            android:layout_width="fill_parent"
+            android:layout_height="42.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/mode_driving"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/transit_rb"
+            android:layout_width="fill_parent"
+            android:layout_height="42.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/mode_transit"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/walking_rb"
+            android:layout_width="fill_parent"
+            android:layout_height="42.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/mode_walk"
+            android:button="@null" />
+    </RadioGroup>
+    <!--
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/map_search_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:text="@string/cancle"
+            android:textSize="16.0sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/map_search_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:text="@string/ok"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+    </LinearLayout> -->
+
+</LinearLayout>

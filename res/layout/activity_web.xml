@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/wb_title_rl"
+            style="@style/SurveyHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/web_record_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="10dip"
+                android:layout_toLeftOf="@+id/web_title_tv"
+                android:background="@drawable/audio_online"
+                android:gravity="center"
+                android:onClick="btnClick"
+                android:textColor="#ffffffff"
+                android:textSize="18.0sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/web_title_tv"
+                style="@style/SurveyHeaderText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/index_detail" />
+
+            <Button
+                android:id="@+id/web_camera_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="20dip"
+                android:layout_toRightOf="@+id/web_title_tv"
+                android:background="@drawable/camera_btn_bg"
+                android:gravity="center"
+                android:onClick="btnClick"
+                android:textColor="#ffffffff"
+                android:textSize="18.0sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <WebView
+            android:id="@+id/visit_wb"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/wb_title_rl"
+            android:layout_weight="8"
+            android:fadeScrollbars="true"
+            android:fadingEdge="none"
+            android:scrollbarFadeDuration="400" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/re_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/web_pre_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bq_back"
+                android:onClick="btnClick"
+                android:text="@string/back_question"
+                android:textColor="@color/black"
+                android:textSize="@dimen/adpter_text_size"
+                android:textStyle="bold" />
+            <!-- android:background="" -->
+
+            <Button
+                android:id="@+id/web_next_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nq_back"
+                android:onClick="btnClick"
+                android:text="@string/next_question"
+                android:textColor="@color/white"
+                android:textSize="@dimen/adpter_text_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/result_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#e7e7e7"
+        android:orientation="vertical"
+        android:padding="20dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/visit_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="访问时间：2014/09/24 15:53:20"
+            android:textColor="#585858"
+            android:textSize="@dimen/adpter_text_size"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/visitor_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="记录人员：DAP"
+            android:textColor="#585858"
+            android:textSize="@dimen/adpter_text_size"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/visit_addr_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="访问地点：阜成大厦"
+            android:textColor="#585858"
+            android:textSize="@dimen/adpter_text_size"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/visitor_state_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="访问状态：中断断续"
+            android:textColor="#585858"
+            android:textSize="@dimen/adpter_text_size"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+
+            <!-- android:layout_gravity="left|center_vertical" -->
+
+            <Button
+                android:id="@+id/left_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dip"
+                android:background="@drawable/icon_hui"
+                android:gravity="center"
+                android:onClick="btnClick"
+                android:text="继 续"
+                android:textColor="@color/white"
+                android:textSize="@dimen/adpter_text_size"
+                android:typeface="serif" />
+
+            <!-- android:layout_gravity="right|center_vertical" -->
+
+            <Button
+                android:id="@+id/right_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dip"
+                android:background="@drawable/icon_bai"
+                android:gravity="center"
+                android:onClick="btnClick"
+                android:text="终 止"
+                android:textColor="#585858"
+                android:textSize="@dimen/adpter_text_size"
+                android:typeface="serif" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <SlidingDrawer
+        android:id="@+id/pic_sd"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:content="@+id/images_rl"
+        android:handle="@+id/drag_icon_iv"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/images_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" >
+
+            <ImageSwitcher
+                android:id="@+id/switcher"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/img_count_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/gallery"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:typeface="serif" />
+
+            <Gallery
+                android:id="@+id/gallery"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:spacing="16dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/drag_icon_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tray_handle" />
+    </SlidingDrawer>
+
+</RelativeLayout>

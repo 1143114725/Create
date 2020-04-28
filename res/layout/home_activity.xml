@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/head" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.01dip"
+        android:layout_gravity="center"
+        android:background="@color/gray" />
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/login_margin_top_big"
+        android:layout_marginRight="@dimen/login_margin_top_big"
+        android:layout_marginTop="@dimen/login_margin_top_big"
+        android:layout_weight="10"
+        android:horizontalSpacing="@dimen/login_margin_top"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:verticalSpacing="@dimen/login_margin_top" >
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/tvNoLoaclList"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/login_margin_top_big"
+        android:layout_marginRight="@dimen/login_margin_top_big"
+        android:layout_marginTop="@dimen/login_margin_top_big"
+        android:layout_weight="10"
+        android:visibility="gone"
+        android:horizontalSpacing="@dimen/login_margin_top"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ivName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tianjia" />
+    </LinearLayout>
+
+</LinearLayout>

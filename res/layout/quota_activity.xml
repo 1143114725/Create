@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/quota_left_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/login_margin_top_big"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/quotatextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/quota_center"
+            android:textColor="#444"
+            android:textSize="@dimen/index_detail"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.01dip"
+        android:layout_gravity="center"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/login_margin_top_big"
+        android:layout_marginLeft="@dimen/login_margin_top_big"
+        android:layout_marginRight="@dimen/login_margin_top_big"
+        android:layout_marginTop="@dimen/login_margin_top_big"
+        android:layout_weight="1"
+        android:background="#f2f2f2" >
+
+        <LinearLayout 
+            android:id="@+id/title_quota"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            >
+         <TextView
+                style="@style/text_white_shadow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:text="@string/quota_name"
+                android:textSize="@dimen/local_text_size"
+                 />
+
+            <View
+                android:layout_width="1.2dip"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                style="@style/text_white_shadow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:text="@string/quota_success"
+                android:textSize="@dimen/local_text_size"
+                />
+
+            <View
+                android:layout_width="1.2dip"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                style="@style/text_white_shadow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:text="@string/quota_text"
+                android:textSize="@dimen/local_text_size"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.01dip"
+        android:layout_gravity="center"
+        android:background="@color/gray" />
+
+    <ListView
+        android:id="@+id/quotalistview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/white"
+        android:dividerHeight="@dimen/login_margin_top"
+        android:drawSelectorOnTop="true"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:scrollingCache="false" />
+
+    <TextView
+        android:id="@+id/no_quota_list_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/login_margin_top_big"
+        android:layout_marginRight="@dimen/login_margin_top_big"
+        android:layout_marginTop="@dimen/login_margin_top_big"
+        android:layout_weight="9"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="@string/null_list"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/index_detail"
+        android:textStyle="bold"
+        android:typeface="serif" />
+    <Button 
+        android:id="@+id/quota_update"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/quota_update"
+        />
+</LinearLayout>

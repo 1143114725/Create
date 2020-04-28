@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!--android:background="@drawable/sy"-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/title_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+       <!-- <Button 
+            android:id="@+id/my_btn"
+             style="@style/SurveyBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:onClick="btnClick">
+            
+        </Button> -->
+        
+    </RelativeLayout>

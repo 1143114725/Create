@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="0.0dip"
+    android:layout_marginLeft="0.0dip"
+    android:layout_marginRight="0.0dip"
+    android:background="@drawable/mediacontroller_bg"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ff"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="2.0dip"
+        android:layout_marginLeft="7.0dip"
+        android:layout_marginRight="7.0dip"
+        android:layout_marginTop="2.0dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/has_played"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignBaseline="@+id/seekbar"
+            android:layout_gravity="center_vertical"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:text="00:00"
+            android:textSize="@dimen/local_text_size"
+            android:textColor="@color/white"
+            android:typeface="serif" />
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@+id/duration"
+            android:layout_toRightOf="@+id/has_played"
+            android:gravity="center_vertical"
+            android:max="1000"
+            android:paddingLeft="3dip"
+            android:paddingRight="3dip"
+            android:progressDrawable="@layout/seekbar_style" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/seekbar"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:text="00:00"
+            android:textSize="@dimen/local_text_size"
+            android:textColor="@color/white"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/control_play_state"
+            style="@style/play_controler"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical" />
+
+        <Button
+            android:id="@+id/control_sound_control"
+            style="@style/play_controler"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/btn_voice_normal" />
+    </RelativeLayout>
+
+</RelativeLayout>

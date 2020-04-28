@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/main_back"
+    android:paddingRight="20dp" >
+
+    <!--  -->
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/admin_panel_background_small"
+        android:ems="10"
+        android:hint="@string/write_email"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        
+        <Button
+            android:id="@+id/cancelSendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/main_clic_fan"
+            android:text="@string/email_cancel" />
+        
+        <Button
+            android:id="@+id/sendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/main_clic_fan"
+            android:padding="10dp"
+            android:text="@string/email_submit" />
+        
+        
+    </LinearLayout>
+
+    <!--
+    <EditText
+        android:id="@+id/preEditEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请再次输入邮箱"
+        android:singleLine="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>-->
+
+</LinearLayout>

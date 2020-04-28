@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/subscibe_ll"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_background_subscibe"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/login_margin_top_big"
+            android:layout_marginRight="@dimen/login_margin_top_big"
+            android:layout_marginTop="@dimen/login_margin_top"
+            android:text="体验问卷体验体验问卷体验"
+            android:textColor="@color/white"
+            android:textSize="@dimen/local_text_size" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginRight="@dimen/login_margin_top_big"
+            android:layout_marginLeft="@dimen/login_margin_top_big"
+            android:text="2014-11-19"
+            android:textColor="@color/white"
+            android:textSize="@dimen/adpter_text_size" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="@dimen/login_margin_top_big"
+            android:layout_marginTop="@dimen/login_margin_top_small"
+            android:layout_marginRight="@dimen/login_margin_top_big"
+            android:paddingBottom="@dimen/login_margin_top_big"
+            android:text="个人使用者，使用守则告诉我一个原著中，大部分的时间在干什么呢"
+            android:textColor="@color/white"
+            android:textSize="@dimen/adpter_text_size" />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/iv_ll"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+	
+	    <ImageView
+	        android:id="@+id/iv_add"
+	        android:layout_gravity="center"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/icon_subscibe_click"
+	         />
+	    
+	    <ProgressBar
+                android:id="@+id/author_list_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dip"
+                android:layout_marginTop="2dip"
+                android:visibility="gone" 
+                android:max="1000"
+                android:layout_gravity="center"
+                android:progressDrawable="@drawable/progress_bg"
+                />
+    </LinearLayout>
+
+</LinearLayout>

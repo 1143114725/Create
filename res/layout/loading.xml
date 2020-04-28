@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/qmtips_wrap"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/msg_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginTop="10.0dip" />
+
+    <TextView
+        android:id="@+id/loading_msg_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10.0dip"
+        android:textColor="#ffffffff"
+        android:typeface="serif"
+       	android:textSize="@dimen/local_text_size"
+        android:text="@string/please_wait" />
+</LinearLayout>

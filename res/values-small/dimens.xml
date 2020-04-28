@@ -1,0 +1,25 @@
+<resources>
+
+    <dimen name="index_button_top">20px</dimen>    
+    <dimen name="index_detail">24px</dimen>
+    <dimen name="total_index_detail">28px</dimen>
+	<dimen name="local_text_size">23px</dimen>
+	<dimen name="adpter_text_size">21px</dimen>
+	
+	<dimen name="padding_dimens_size">0px</dimen>
+	
+	<dimen name="no_survey">24px</dimen>
+	<dimen name="small_locate">15px</dimen>
+	
+	<dimen name="image_out_width">100dp</dimen>
+	<dimen name="image_out_height">32dp</dimen>
+	
+	<dimen name="padding_big_dimens_size">2px</dimen>
+	
+	<dimen name="login_margin_top">18px</dimen>
+	<dimen name="login_margin_top_small">12px</dimen>
+	
+	<dimen name="login_margin_top_big">21px</dimen>
+	
+	<dimen name="popmenu_yoff">5.0dip</dimen>
+</resources>

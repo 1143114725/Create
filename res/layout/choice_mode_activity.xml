@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/login_margin_top"
+    android:paddingRight="@dimen/login_margin_top" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/login_margin_top"
+        android:layout_marginRight="@dimen/login_margin_top"
+        android:visibility="invisible"
+         />
+
+    <TextView
+        android:id="@+id/tvfw"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/login_margin_top"
+        android:layout_marginRight="@dimen/login_margin_top"
+        android:textColor="@color/white"
+        android:textSize="@dimen/local_text_size"
+        android:gravity="center"
+        android:background="@drawable/fw_background"
+        android:text="@string/fw"
+         />
+    <TextView
+        android:id="@+id/tvyl"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/login_margin_top_big"
+        android:background="@drawable/review_background"
+        android:layout_marginLeft="@dimen/login_margin_top"
+        android:textSize="@dimen/local_text_size"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginRight="@dimen/login_margin_top"
+        android:text="@string/review"
+         />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/login_margin_top"
+        android:layout_marginRight="@dimen/login_margin_top"
+        android:visibility="invisible"
+         />
+</LinearLayout>

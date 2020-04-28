@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/grid_item_ll"
+    android:orientation="vertical" >
+
+    
+        
+        
+		<LinearLayout 
+		    android:id="@+id/grid_item_top"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:background="@drawable/border"
+		    android:layout_width="fill_parent">
+	        <TextView
+	            android:id="@+id/grid_item_number"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/login_margin_top"
+	            android:layout_marginTop="@dimen/login_margin_top"
+	            android:layout_marginBottom="@dimen/login_margin_top"
+	            android:text="@string/number"
+	            android:textSize="@dimen/index_detail"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textColor="@color/red" />
+		</LinearLayout>
+		
+        <LinearLayout
+            android:id="@+id/grid_item_back"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+             android:background="@drawable/borders"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/grid_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_margin_top"
+           		android:layout_marginTop="@dimen/login_margin_top"
+                android:text="@string/title"
+                android:textSize="@dimen/index_detail"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/grid_item_content"
+                android:layout_width="wrap_content"
+                android:lines="3"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_margin_top"
+                android:layout_marginLeft="@dimen/login_margin_top"  
+                android:layout_marginRight="@dimen/login_margin_top"                         
+                android:layout_marginTop="@dimen/login_margin_top"
+                android:text="@string/content"
+                android:textSize="@dimen/adpter_text_size"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+</LinearLayout>

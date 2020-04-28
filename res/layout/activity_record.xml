@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/recod_back_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/login_margin_top_big"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/recod_video"
+            android:textColor="#444"
+            android:textSize="@dimen/index_detail"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.01dip"
+        android:layout_gravity="center"
+        android:background="@color/gray" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.01dip"
+        android:layout_gravity="center"
+        android:background="@color/gray" />
+     <ListView
+        android:id="@+id/record_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/login_margin_top_big"
+        android:layout_weight="9"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/white"
+        android:dividerHeight="@dimen/login_margin_top_small"
+        android:scrollbars="none" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/no_record_list_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/login_margin_top_big"
+        android:layout_weight="9"
+        android:gravity="center"
+        android:text="@string/null_list"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:typeface="serif"
+        android:textSize="@dimen/no_survey" />
+    
+    
+   <!--  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/record_file"
+            android:textColor="#444"
+            android:textSize="@dimen/index_detail"
+            android:textStyle="bold" />
+    </RelativeLayout> -->
+
+  <!--   <ListView 
+        android:id="@+id/record_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        ></ListView>
+
+    <TextView
+        android:id="@+id/no_record_list_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/login_margin_top_big"
+        android:layout_marginRight="@dimen/login_margin_top_big"
+        android:layout_marginTop="@dimen/login_margin_top_big"
+        android:layout_weight="9"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="@string/null_list"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/index_detail"
+        android:textStyle="bold"
+        android:typeface="serif" /> -->
+    
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="index_button_top">24px</dimen> 
+	<dimen name="index_detail">28px</dimen>
+	<dimen name="total_index_detail">32px</dimen> 
+	<dimen name="local_text_size">24px</dimen> 
+	
+	<dimen name="adpter_text_size">22px</dimen>
+	
+	<dimen name="padding_dimens_size">4px</dimen>
+	
+	<dimen name="no_survey">26px</dimen>
+	<dimen name="small_locate">17px</dimen>
+	
+	<dimen name="image_out_width">110dp</dimen>
+	<dimen name="image_out_height">37dp</dimen>
+	
+	<dimen name="padding_big_dimens_size">5px</dimen>
+	
+	<dimen name="login_margin_top">22px</dimen>
+	<dimen name="login_margin_top_small">15px</dimen>
+	
+	<dimen name="login_margin_top_big">27px</dimen>
+	
+	<dimen name="popmenu_yoff">5.0dip</dimen>
+</resources>

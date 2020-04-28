@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/setting_left_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/login_margin_top_big"
+            android:layout_marginTop="@dimen/login_margin_top_big"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/set"
+            android:textColor="#444"
+            android:textSize="@dimen/index_detail"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.01dip"
+        android:layout_gravity="center"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10" >
+
+        <RelativeLayout
+            android:id="@+id/change_land_port"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/setting_landscape_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/survey_landspace"
+                 android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+
+            <TextView
+                android:id="@+id/setting_vetical_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:layout_toLeftOf="@+id/setting_vetical_iv"
+                android:text="@string/portal"
+                android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+
+            <ImageView
+                android:id="@+id/setting_vetical_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_dark_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        
+        
+        <RelativeLayout
+            android:id="@+id/change_map_port"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/setting_mapscape_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/survey_mapspace"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+
+            <TextView
+                android:id="@+id/setting_mapopen_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:layout_toLeftOf="@+id/setting_map_iv"
+                android:text="@string/survey_mapclose"
+                android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+
+            <ImageView
+                android:id="@+id/setting_map_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_dark_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+        
+        
+        
+        <RelativeLayout
+            android:id="@+id/set_survey_text_size"
+            android:layout_width="match_parent"
+              android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1"  >
+
+            <TextView
+                android:id="@+id/setting_survey_size"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:text="@string/set_survey_size"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size"/>
+
+            <TextView
+                android:id="@+id/setting_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:layout_toLeftOf="@+id/setting_suveysize_iv"
+                android:text="@string/big"
+                 android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+
+            <ImageView
+                android:id="@+id/setting_suveysize_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_dark_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+             android:id="@+id/setting_ip_path"
+            android:layout_width="match_parent"
+              android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1"  >
+
+            <TextView
+                android:id="@+id/setting_realmname_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_ip"
+                android:layout_centerVertical="true"
+               android:textColor="#444"
+                android:textSize="@dimen/local_text_size"/>
+
+            <TextView
+                android:id="@+id/setting_realresult_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:layout_toLeftOf="@+id/setting_realm_iv"
+                android:text="@string/dapchina_ip"
+                android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:singleLine="true"
+                android:textSize="@dimen/adpter_text_size"/>
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/setting_realresult_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:layout_toLeftOf="@+id/setting_realm_iv"
+                android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:hint="@string/input_pay_ip"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:textSize="@dimen/adpter_text_size"/>
+
+            <ImageView
+                android:id="@+id/setting_realm_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_dark_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/check_update_tv"
+            android:layout_width="match_parent"
+              android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1"  >
+
+            <TextView
+                android:id="@+id/setting_monitor_update_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_apk"
+                android:layout_centerVertical="true"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+
+            <TextView
+                android:id="@+id/setting_current_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:text="@string/current_version"
+                 android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+            <ImageView
+               android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_dark_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/total_net"
+            android:layout_width="match_parent"
+              android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/setting_countflow_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_M"
+                android:layout_centerVertical="true"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size"/>
+
+            <TextView
+                android:id="@+id/setting_countkb_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:text="23110.15KB"
+                 android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size"/>
+            <ImageView
+               android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_dark_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/down_net"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/setting_download_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/down_M"
+                android:layout_centerVertical="true"
+               android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+
+            <TextView
+                android:id="@+id/setting_downkb_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:text="9814.04KB"
+                 android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+            <ImageView
+               android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_dark_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+             android:id="@+id/upload_net"
+            android:layout_width="match_parent"
+           android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1"  >
+
+            <TextView
+                android:id="@+id/setting_upload_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_M"
+                android:layout_centerVertical="true"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+
+            <TextView
+                android:id="@+id/setting_uploadkb_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:text="1326.11KB"
+                 android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+            <ImageView
+               android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_dark_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/inner_size"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1"  >
+
+            <TextView
+                android:id="@+id/setting_ram_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memory_total"
+                android:layout_centerVertical="true"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+
+            <TextView
+                android:id="@+id/setting_ramkb_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/setting_ramcount_tv"
+                android:text="3.6055M/"
+                 android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+
+            <TextView
+                android:id="@+id/setting_ramcount_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                 android:layout_centerVertical="true"
+                android:text="503.956M"
+                 android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sdcard_size"
+            android:layout_width="match_parent"
+           android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/setting_sdcard_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sdcar_total"
+                android:layout_centerVertical="true"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+
+            <TextView
+                android:id="@+id/setting_sdcardkb_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/setting_sdcardcount_tv"
+                android:text="3.6055M/"
+                android:layout_centerVertical="true"
+                 android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+
+            <TextView
+                android:id="@+id/setting_sdcardcount_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:text="503.956M"
+                 android:textColor="#808080"
+                 android:layout_centerVertical="true"
+                android:textSize="@dimen/adpter_text_size" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/clear_data_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1"  >
+
+            <TextView
+                android:id="@+id/setting_clearram_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/clean_cache"
+               android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+
+            <ImageView
+                android:id="@+id/setting_realm_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_dark_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/change_save_tv"
+            android:layout_width="match_parent"
+           android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/setting_catalogue_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/change_save_file"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size"/>
+
+            <TextView
+                android:id="@+id/setting_cata_address_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:layout_toLeftOf="@+id/setting_catalogue_iv"
+                android:text="SDCard"
+                 android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+
+            <ImageView
+                android:id="@+id/setting_catalogue_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_dark_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_setting_monitor"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1"  >
+
+            <TextView
+                android:id="@+id/setting_monitor_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/data_monitor"
+                android:layout_centerVertical="true"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+
+            <ImageView
+                android:id="@+id/setting_monitor_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_dark_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/export_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:paddingRight="@dimen/login_margin_top_big"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/setting_export_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/export_data"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size"/>
+
+            <TextView
+                android:id="@+id/setting_expert_address_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:text="@string/check_data"
+                android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:textSize="@dimen/adpter_text_size" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

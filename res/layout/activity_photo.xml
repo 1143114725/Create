@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/alarmclock_set_background" >
+
+    <ImageView
+        android:id="@+id/show_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+    <!--
+    <LinearLayout
+        android:id="@+id/yes_no_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#65000000" >
+
+        <Button
+            android:id="@+id/photo_giveup_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1.0"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dip"
+            android:background="@color/ClearColor"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:text="@string/giveup" >
+        </Button>
+        
+        <Button
+            android:id="@+id/photo_ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1.0"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dip"
+            android:background="@color/ClearColor"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:text="@string/ok" >
+        </Button>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/wait_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/yes_no_ll"
+        android:orientation="vertical"
+        android:visibility="gone" >
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:padding="25dip" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/please_wait"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/yes_no_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="55.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_watermarkcamera_watermark" >
+
+        <Button
+            android:id="@+id/photo_giveup_btn"
+            android:layout_width="60.0dip"
+            android:layout_height="40.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5.0dip"
+            android:background="@drawable/selector_skin_navbar"
+            android:text="@string/giveup"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/photo_change_iv"
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/turn_right_pack" />
+
+        <Button
+            android:id="@+id/photo_ok_btn"
+            android:layout_width="60.0dip"
+            android:layout_height="40.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5.0dip"
+            android:background="@drawable/selector_nav_publish_new"
+            android:text="@string/ok"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

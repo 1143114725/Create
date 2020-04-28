@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/login_margin_top_big"
+    android:paddingTop="@dimen/login_margin_top_big" >
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_margin_top"
+        android:layout_weight="8"
+        android:gravity="left"
+        android:text="公众体验问卷(20)"
+        android:textColor="#4e4e4e"
+        android:textSize="@dimen/local_text_size" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_notice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="@drawable/btn_update"
+        android:text="@string/upload"
+        android:textColor="@color/white"
+        
+        android:textSize="@dimen/adpter_text_size" />
+
+    <ProgressBar
+        android:id="@+id/author_list_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginBottom="2dip"
+        android:layout_marginTop="2dip"
+        android:max="1000"
+        android:visibility="gone" 
+        android:progressDrawable="@drawable/progress_bg"
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

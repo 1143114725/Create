@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <!-- 标题 -->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/adpter_text_size"
+        android:background="#121420"
+        android:textColor="#40E0D0"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_gravity="center"
+        android:background="#40E0D0" />
+    <!-- 中间的内容 -->
+
+    <LinearLayout
+        android:id="@+id/message_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/index_detail"
+            android:gravity="left"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <!-- 按钮 -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="center"
+        android:background="#C1CDC1" />
+
+    <LinearLayout
+        android:id="@+id/btns_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/btn_color"
+        android:orientation="horizontal" >
+		<!-- #d9dbdc -->
+        <TextView
+            android:id="@+id/left_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/adpter_text_size"
+            android:text="@string/cancel"
+            android:textColor="#000000" />
+
+        <View
+            android:id="@+id/dialog_builder_view"
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="#C1CDC1" />
+
+        <TextView
+            android:id="@+id/right_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/adpter_text_size"
+            android:text="@string/ok"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>

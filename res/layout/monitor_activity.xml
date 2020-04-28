@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/data_left_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/login_margin_top_big"
+            android:layout_marginTop="@dimen/login_margin_top_big"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/data_monitor"
+            android:textColor="#444"
+            android:textSize="@dimen/index_detail"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.01dip"
+        android:layout_gravity="center"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/login_margin_top_big"
+            android:text="@string/welcome_user"
+            android:textColor="#73b495"
+            android:textSize="@dimen/adpter_text_size" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/msg_sv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@drawable/data_background"
+        android:padding="@dimen/login_margin_top_big" >
+
+        <TextView
+            android:id="@+id/msg_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.5"
+            android:textColor="#1631d6"
+            android:textSize="@dimen/adpter_text_size" />
+    </ScrollView>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/send_ll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/login_margin_top_big"
+        android:paddingTop="@dimen/login_margin_top_big" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="6" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#bebfc0" />
+
+        <EditText
+            android:id="@+id/msg_et"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="51"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/please_input_username"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:textColor="#888"
+            android:textColorHint="#eeeeee"
+            android:textSize="@dimen/adpter_text_size" >
+        </EditText>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#bebfc0" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="4" />
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="13"
+            android:background="@drawable/send_button_selector"
+            android:text="@string/send"
+            android:textColor="@color/white"
+            android:textSize="@dimen/adpter_text_size" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="6" />
+    </LinearLayout>
+
+</LinearLayout>

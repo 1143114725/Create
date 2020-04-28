@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/visit_left_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/login_margin_top_big"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/visit_survey_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/survey_title"
+            android:textColor="#444"
+            android:textSize="@dimen/index_detail"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/new_panel"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:onClick="btnClick"
+                android:src="@drawable/icon_new_panel" />
+
+            <ImageView
+                android:id="@+id/more_opt"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="@dimen/login_margin_top_big"
+                android:src="@drawable/icon_more" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.01dip"
+        android:layout_gravity="center"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:id="@+id/inner_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" 
+            android:padding="@dimen/padding_big_dimens_size">
+
+            <TextView
+                android:id="@+id/download_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/download_sum"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+
+            <TextView
+                android:id="@+id/download_sum_count"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="0"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_big_dimens_size"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/completed_num"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/completed_num"
+                android:textColor="#444"
+                 android:textSize="@dimen/local_text_size" />
+
+            <TextView
+                android:id="@+id/completed_num_count"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="0"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding_big_dimens_size"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/uploaded_num"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/uploaded_num"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+
+            <TextView
+                android:id="@+id/uploaded_num_count"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="0"
+                android:textColor="#444"
+                android:textSize="@dimen/local_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding_big_dimens_size"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/unUploaded_num"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/unUploaded_num"
+                android:textColor="@color/red"
+                android:textSize="@dimen/local_text_size" />
+
+            <TextView
+                android:id="@+id/unUploaded_num_count"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="0"
+                android:textColor="@color/red"
+                android:textSize="@dimen/local_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.01dip"
+        android:layout_gravity="center"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:id="@+id/globle_search"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/login_margin_top_big"
+        android:layout_marginLeft="@dimen/login_margin_top_big"
+        android:layout_marginRight="@dimen/login_margin_top_big"
+        android:layout_marginTop="@dimen/login_margin_top_big"
+        android:layout_weight="1"
+        android:background="@drawable/search_background"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="17"
+            android:gravity="center"
+            android:onClick="btnClick" >
+
+            <TextView
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/login_margin_top"
+                android:text="@string/more_thing"
+                android:textColor="@color/white"
+                android:textSize="@dimen/adpter_text_size" />
+        </LinearLayout>
+
+        <AutoCompleteTextView
+            android:id="@+id/keyword_actv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="46"
+            android:background="@color/transparent"
+            android:hint="@string/searce"
+            android:paddingLeft="@dimen/login_margin_top_big"
+            android:textColor="#888"
+            android:textColorHint="#d9d9d9"
+            android:textSize="@dimen/adpter_text_size" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/search_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:onClick="btnClick"
+                android:src="@drawable/icon_search" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.01dip"
+        android:layout_gravity="center"
+        android:background="@color/gray" />
+
+    <ListView
+        android:id="@+id/visit_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/login_margin_top_big"
+        android:layout_weight="9"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/white"
+        android:dividerHeight="@dimen/login_margin_top_small"
+        android:scrollbars="none" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/no_visit_list_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/login_margin_top_big"
+        android:layout_weight="9"
+        android:gravity="center"
+        android:text="@string/null_list"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/no_survey"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="style_no_record">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/null_list</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="item_btn_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/applicationbar_button_highlight_bg</item>
+        <item name="android:focusable">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/white</item>
+:        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="qmtips_wrap">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/bg_qmtips</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">140.0dip</item>
+        <item name="android:layout_height">140.0dip</item>
+    </style>
+
+    <style name="text_white_shadow">
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="input_del">
+
+        <!-- <item name="android:background"></item>@drawable/login_input_del -->
+        <item name="android:layout_width">20.0dip</item>
+        <item name="android:layout_height">20.0dip</item>
+    </style>
+
+    <style name="login_btn">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">20dip</item>
+        <item name="android:layout_marginRight">20dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDy">-0.1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="text_shadow_light">
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="login_mask">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="login_field">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">40.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+    </style>
+
+    <style name="ds">
+        <item name="android:windowBackground">@color/ClearColor</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="style_clear" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="question_ds">
+        <item name="android:windowBackground">@color/ClearColor</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@anim/dialog_show</item>
+    </style>
+
+    <style name="home_tab_bottom" parent="@android:style/Widget.Button">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <!-- <item name="android:background">@drawable/home_btn_bg</item> -->
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/local_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="visit_left_bottom" parent="@android:style/Widget.Button">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:layout_width">@dimen/image_out_width</item>
+        <item name="android:layout_height">@dimen/image_out_height</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_marginTop">2.0px</item>
+        <item name="android:layout_marginBottom">2.0px</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="visit_right_bottom" parent="@android:style/Widget.Button">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">right|center_vertical</item>
+        <item name="android:layout_width">@dimen/image_out_width</item>
+        <item name="android:layout_height">@dimen/image_out_height</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_marginTop">2.0px</item>
+        <item name="android:layout_marginBottom">2.0px</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AdminButton">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5.0px</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+
+    <style name="AdminAdvancedButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:paddingLeft">10.0px</item>
+        <item name="android:paddingTop">0.0px</item>
+        <item name="android:paddingRight">10.0px</item>
+        <item name="android:paddingBottom">0.0px</item>
+        <item name="android:layout_marginLeft">10.0px</item>
+        <item name="android:layout_marginRight">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="AdminEditText" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+
+    <style name="AdminHeader">
+        <!-- <item name="android:background">@drawable/small_admin_header_background</item> -->
+    </style>
+
+    <style name="AdminHelpHeaderText">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_marginLeft">5.0px</item>
+        <item name="android:layout_marginTop">5.0px</item>
+        <item name="android:layout_marginRight">5.0px</item>
+    </style>
+
+    <style name="AdminHelpText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_marginLeft">5.0px</item>
+        <item name="android:layout_marginTop">5.0px</item>
+        <item name="android:layout_marginRight">5.0px</item>
+        <item name="android:layout_marginBottom">5.0px</item>
+    </style>
+
+    <style name="AdminMenuBluebox">
+
+        <!-- <item name="android:background">@drawable/small_admin_infobox_background</item> -->
+        <item name="android:layout_margin">10.0px</item>
+    </style>
+
+    <style name="AdminMenuBlueboxTitleText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">20.0sp</item>
+    </style>
+
+    <style name="AdminMenuBlueboxDetailsText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="AdminMenuBackgroundText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="AdminRadioButton" parent="@android:style/Widget.CompoundButton">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="AdminSelectItem">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:paddingLeft">5.0px</item>
+        <item name="android:paddingTop">10.0px</item>
+        <item name="android:paddingRight">5.0px</item>
+        <item name="android:paddingBottom">10.0px</item>
+    </style>
+
+    <style name="BrandingText">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#ff000000</item>
+    </style>
+
+    <style name="DevelopmentText">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="SurveyTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="SurveyDateTimeMultiText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:layout_marginLeft">10.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyEditText" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">18.0sp</item>
+        <!-- <item name="android:background">@drawable/large_edittext_standard</item> -->
+    </style>
+
+    <style name="SurveyEditTextLeft">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_marginLeft">3.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyEditTextRight">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">3.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyEditTextInform">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+
+    <style name="SurveyEditTextLayout">
+        <item name="android:layout_marginLeft">10.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyFormText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:paddingLeft">10.0px</item>
+        <item name="android:paddingTop">10.0px</item>
+        <item name="android:paddingRight">10.0px</item>
+        <item name="android:paddingBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyFormMultiText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:paddingTop">10.0px</item>
+        <item name="android:paddingBottom">10.0px</item>
+        <item name="android:layout_marginLeft">10.0sp</item>
+        <item name="android:layout_marginTop">1.0sp</item>
+        <item name="android:layout_marginRight">10.0sp</item>
+        <item name="android:layout_marginBottom">0.0px</item>
+    </style>
+
+    <style name="SurveyFormImage">
+        <item name="android:layout_marginLeft">10.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyHeader">
+        <!-- <item name="android:background">@drawable/survey_header_background</item> -->
+    </style>
+
+    <style name="SurveyHeaderText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">5.0</item>
+        <item name="android:shadowDy">4.0</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+
+    <style name="SurveyBackButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">8.0pt</item>
+        <item name="android:textStyle">bold</item>
+        <!-- <item name="android:background">@drawable/small_back_button</item> -->
+    </style>
+
+    <style name="SurveyNextButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">8.0pt</item>
+        <item name="android:textStyle">bold</item>
+        <!-- <item name="android:background">@drawable/small_next_button</item> -->
+    </style>
+
+    <style name="SurveyIntervalScaleSmallLayout">
+        <item name="android:layout_marginLeft">30.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">30.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyIntervalScaleBoundsText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+
+    <style name="SurveyIntervalScaleBoundsTextSmall">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+
+    <style name="SurveyIntervalLayout">
+        <item name="android:layout_marginLeft">10.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyMatrixText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_marginLeft">10.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyMatrixHeaderText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_marginLeft">10.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyMatrixItemText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:background">#ff000000</item>
+        <item name="android:layout_marginLeft">10.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyRadioButton" parent="@android:style/Widget.CompoundButton">
+        <item name="android:textSize">16.0sp</item>
+        <!-- <item name="android:background">@drawable/small_radiobutton_background</item> -->
+        <!-- <item name="android:button">@drawable/small_radiobutton</item> -->
+    </style>
+
+    <style name="SurveyRadioButtonMulti" parent="@android:style/Widget.CompoundButton">
+        <item name="android:textSize">16.0sp</item>
+        <!-- <item name="android:background">@drawable/small_radiobutton_background</item> -->
+        <!-- <item name="android:button">@drawable/small_radiobutton</item> -->
+    </style>
+
+    <style name="SurveyMatrixRadioButton" parent="@android:style/Widget.CompoundButton">
+        <item name="android:textSize">16.0sp</item>
+        <!-- <item name="android:background">@drawable/small_radiobutton_background</item> -->
+        <!-- <item name="android:button">@drawable/small_radiobutton</item> -->
+    </style>
+
+    <style name="SurveyScaleSmallLayout">
+        <item name="android:layout_marginLeft">30.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">30.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveyScaleHeaderText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+
+    <style name="SurveyScaleHeaderTextSmall">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+
+    <style name="SurveyMatrixNotchedScale">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+
+    <style name="SurveyScaleLayout">
+        <item name="android:layout_marginLeft">10.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveySelectHelpTextSmall">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:paddingLeft">3.0px</item>
+    </style>
+
+    <style name="SurveySelectEditText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+
+    <style name="SurveySelectLayout">
+        <item name="android:layout_marginLeft">10.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="SurveySignatureOverlayLayout">
+        <item name="android:background">@color/SurveyFormBackground</item>
+        <item name="android:paddingLeft">15.0px</item>
+        <item name="android:paddingTop">5.0px</item>
+        <item name="android:paddingRight">15.0px</item>
+        <item name="android:paddingBottom">5.0px</item>
+        <item name="android:layout_marginLeft">15.0px</item>
+        <item name="android:layout_marginTop">5.0px</item>
+        <item name="android:layout_marginRight">15.0px</item>
+        <item name="android:layout_marginBottom">5.0px</item>
+    </style>
+
+    <style name="SurveySignatureLayout">
+        <item name="android:layout_marginLeft">10.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">10.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+
+    <style name="timePicker" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="play_lists_back">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- <item name="android:background">@drawable/bigbutton</item> -->
+        <item name="android:layout_marginLeft">320dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="play_controler">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">1dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="Transparent_white">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="RadioButtonStyles">
+        <item name="android:button">@drawable/upload_button_selector</item>
+    </style>
+    
+     <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+
+    <style name="text_18_ffffff">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_16_666666">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="sdw_white">
+        <item name="android:shadowColor">#7fffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.65</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="sdw_79351b">
+        <item name="android:shadowColor">#ff79351b</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="text_15_ffffff_sdw" parent="@style/sdw_79351b">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_15_666666_sdw" parent="@style/sdw_white">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+<!-- 多选图片 -->
+    <style name="AnimBottom" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+	</style>
+</resources>

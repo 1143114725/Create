@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/review_rl"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/review_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip" />
+
+    <TextView
+        android:id="@+id/review_caption_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/review_title_tv"
+        android:layout_marginBottom="10dip" />
+
+    <LinearLayout
+        android:id="@+id/review_caption_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/review_caption_tv"
+        android:layout_marginBottom="10dip"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/review_body_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/review_caption_ll"
+        android:layout_marginBottom="10dip" />
+
+    <TextView
+        android:id="@+id/review_comment_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/review_body_ll" />
+
+    <LinearLayout
+        android:id="@+id/review_comment_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/review_comment_tv"
+        android:layout_marginBottom="20dip"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+</RelativeLayout>

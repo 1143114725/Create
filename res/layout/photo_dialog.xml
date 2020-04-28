@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/main_back"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_gray"
+        android:gravity="center_horizontal"
+        android:padding="1dp" >
+
+        <ImageView
+            android:id="@+id/edit_avator_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </ImageView>
+    </LinearLayout>
+    -->
+
+    <TextView
+        android:id="@+id/msg_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/avatar_edit_camera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/main_clic"
+        android:layout_marginBottom="10dip"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:onClick="onClick"
+        android:text="@string/camera_take_pictures" >
+    </Button>
+
+    <Button
+        android:id="@+id/avatar_edit_album"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/main_clic"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:onClick="onClick"
+        android:text="@string/selection_album" >
+    </Button>
+    <!-- 摄像 -->
+	 <Button
+        android:id="@+id/avatar_edit_recording"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/main_clic"       
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:onClick="onClick"
+        android:text="@string/camera_take_recording" >
+    </Button>
+</LinearLayout>

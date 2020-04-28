@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_main">DapSurvey</string>
+    <string name="app_name">DapSurvey</string>
+    <string name="home_page">Home</string>
+    <string name="number">99+</string>
+    <string name="title">Experience Survey</string>
+    <string name="content">Individual researchers free use, support phone connection tracking or web page</string>
+    <string name="user_name">not login</string>
+    <string name="introduce">Dap software self-developed access expert software</string>
+    <string name="upload">upload</string>
+    <string name="knowleage">knowleage</string>
+    <string name="set">set</string>
+    <string name="brief_introduction">Dap companies and professional institutions to provide access to expert software sales, investigation and technical support, we have service to 600 customers worldwide</string>
+    <string name="company_name">Dap software (Beijing) co., LTD</string>
+    <string name="telphone">010-63517795</string>
+    <string name="login">login</string>
+    <string name="regist">regist</string>
+    <string name="please_input_username">Please fill in the user name</string>
+    <string name="please_input_password">Please fill in the login password</string>
+    <string name="pay_login">Pro landing</string>
+    <string name="free_login">Free landing</string>
+    <string name="forget_password">forget the password?</string>
+    <string name="please_set_username">Please set the user name</string>
+    <string name="please_set_password">Please set the password(6 to 20 characters)</string>
+    <string name="pay_regist">Pro registration</string>
+    <string name="free_regist">Free registration</string>
+    <string name="subscibe_center">project center</string>
+    <string name="searce">search</string>
+    <string name="survey_landspace">Questionnaire switch to landscape</string>
+    <string name="portal">vertical</string>
+    <string name="set_survey_size">Set the paper size</string>
+    <string name="big">big</string>
+    <string name="set_ip">set ip</string>
+    <string name="dapchina_ip">dapchina.cn</string>
+    <string name="update_apk">Check For Updates</string>
+    <string name="current_version">The current version 3.0</string>
+    <string name="total_M">The total consumption of flow</string>
+    <string name="down_M">Download of the traffic</string>
+    <string name="upload_M">Upload of the traffic</string>
+    <string name="memory_total">Memory (surplus/total)</string>
+    <string name="sdcar_total">SDCard(The remaining/total)</string>
+    <string name="clean_cache">clear cache</string>
+    <string name="change_save_file">Switch file storage directory</string>
+    <string name="data_monitor">monitoring data</string>
+    <string name="export_data">export data</string>
+    <string name="check_data">(Please view SdCard/CAPI_DATA_EXPERT/...catalogue)</string>
+    <string name="survey_title">The public experience questionnaire</string>
+    <string name="more_thing">category</string>
+    <string name="fw">visit</string>
+    <string name="review">Preview</string>
+    <string name="map">map</string>
+    <string name="current_position">Current Position：</string>
+    <string name="doing_local">No positioning success</string>
+    <string name="read_map">View Map</string>
+    <string name="read_ins">Read the description</string>
+    <string name="select_all">check all</string>
+	<string name="all_upload">Upload all</string>
+	<string name="select_null">Invert Selection</string>
+	<string name="question_info">problem information</string>
+	<string name="survey_ins">Support Android terminal, beyond imagination of human touch, will support questionnaire GPS photos recording an online environment offline environment data acquisition, data report</string>
+	<string name="visit">Began to visit</string>
+	<string name="welcome_user">★.Welcome to the monitoring data of the page please don\'t quit, technicians are trying to help you debug</string>
+	<string name="send">send</string>
+	<string name="back_question">front question</string>
+	<string name="next_question">next question</string>
+	<string name="ok">confirm</string>
+	<string name="null_list">NO RECORDS</string>
+	<string name="sorry_no_result">No results found</string>
+	<string name="no_title">No title</string>
+	
+	<string name="recode">recode</string>
+	<string name="camera">camera</string>
+	<string name="video">video</string>
+	<string name="input_name">Please enter the project name</string>
+	<string name="inner_name">(Have internal invited list)</string>
+	<!-- 大树开始  -->
+	<!-- 大树     邮箱不存在 -->
+    <string name="email_not_exit">Email was not found, please enter again</string>
+    <!-- 大树  注册失败  -->
+    <string name="regisit_fail">registration failed</string>
+    <string name="each_answer_associated">each answer associated </string>
+	<string name="answer_value_reference">answer value - reference</string>
+	<string name="answer_value_rejection">answer value - rejection</string>
+	<string name="option_top">Options are placed at the top</string>
+	<string name="option_bottom">The bottom of the option to buy</string>
+	<string name="sum">SUM</string>
+	<string name="inner_refrense">Ontology is associated option inside</string>
+	<string name="aerial_mode">aerial mode</string>
+	<string name="traffic_mode">traffic mode</string>
+	<string name="empty">null</string>
+	<string name="no_meet">not meet requirement</string>
+	<string name="accessory">accessory</string>
+	<string name="view_attachments">Click to view the attachment</string>
+	<string name="twenty_meters">twenty meters</string>
+	<string name="fifty_meters">fifty meters</string>
+	<string name="one_hundred_meters">one hundred meters</string>
+	<string name="two_hundred_meters">two hundred meters</string>
+	<string name="five_hundred_meters">five hundred meters</string>
+	<string name="one_km">one km</string>
+	<string name="two_km">two km</string>
+	<string name="five_km">five km</string>
+	<string name="ten_km">ten km</string>
+	<string name="twenty_km">twenty km</string>
+	<string name="twenty_five_km">twenty five km</string>
+	<string name="fifty_km">fifty km</string>
+	<string name="one_hundred_km">one hundred km</string>
+	<string name="two_hundred_km">two hundred km</string>
+	<string name="five_hundred_km">five hundred km</string>
+	<string name="one_thousand_km">one thousand km</string>
+	<string name="two_thousand_km">two thousand km</string>
+	<string name="decimel_places_no_meet">After the decimal point must be two digits</string>
+	<string name="sequence_repeat">The option value can\'t duplicate</string>
+    <!--大树结束   -->
+    <string name="land_port_change_p">Questionnaire switch to landscape</string>
+    <string name="land_port_change_l">Questionnaire switch to portrait</string>
+    <string name="verital">vertical</string>
+    <string name="prot">landscape</string>
+    <string name="middle">middle</string>
+    <string name="small">small</string>
+	<string name="version">Current version %s</string>
+	
+	<!-- 原访问专家 -->
+    <string name="start">Start</string>
+    <string name="cancle">Cancel</string>
+    <string name="question_must">(Required)</string>
+    <string name="question_order">Q%d.</string>
+    <string name="msg_must">This question is required, please reply.</string>
+    <string name="msg_null_edit">Your text box is not filled.</string>
+    <string name="year">Y</string>
+    <string name="month">Mon</string>
+    <string name="day">D</string>
+    <string name="hour">H</string>
+    <string name="minute">Min</string>
+    <string name="secord">S</string>
+    <string name="tab_local">Visit</string>
+    <string name="tab_author">Download</string>
+    <string name="tab_upload">Upload</string>
+    <string name="tab_setting">More</string>
+    <string name="please_wait">Waiting....</string>
+    <string name="exit_title">Exit Survey-Expert?</string>
+    <string name="login_account_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="welcome_version">Version %s</string>
+    <string name="welcome_foot">www.dapchina.cn</string>
+    <string name="login_offline">Offline</string>
+    <string name="login_online">Online</string>
+    <string name="survey_name">Project</string>
+    <string name="start_time">Start</string>
+    <string name="update_time">Update</string>
+    <string name="completed">Completed</string>
+    <string name="unupload">Unupload</string>
+    <string name="operation">Operation</string>
+    <string name="download">Download</string>
+    <string name="update">Update</string>
+    <string name="exp_net">Sorry, your network is bad!</string>
+    <string name="null_userid">Please input your username.</string>
+    <string name="null_pwd">Please input your password.</string>
+    <string name="fail_login">Login failure!</string>
+    <string name="sucess_login">Login successfully!</string>
+    <string name="welcom_user">Welcom, %s</string>
+    <string name="upload_incompleted">Upload incomplete</string>
+    <string name="upload_completed">Upload completed</string>
+    <string name="back">Back</string>
+    <string name="model_map">Map</string>
+    <string name="model_visit">Visit</string>
+    <string name="road_line">Route</string>
+    <string name="start_point_hit">Starting point:</string>
+    <string name="end_point_hit">End point:</string>
+    <string name="search_city">To find a city:</string>
+    <string name="search_city2">To reach the city:</string>
+    <string name="search_hit">Please enter your keyword to search.</string>
+    <string name="map_address">Current Location: %s</string>
+    <string name="null_city">Please fill out the query city.</string>
+    <string name="null_start">Please fill out the starting point.</string>
+    <string name="null_end">Please fill in the end point.</string>
+    <string name="null_city2">Please fill in the city to go.</string>
+    <string name="local_id">LocalID</string>
+    <string name="upload_feedid">FeedID</string>
+    <string name="visit_state">State</string>
+    <string name="visit_state_noaccess">No access</string>
+    <string name="visit_state_interrupt">Interrupt</string>
+    <string name="visit_state_completed">Completed</string>
+    <string name="visit_noaccess">@string/tab_local</string>
+    <string name="visit_interrupt">Continue</string>
+    <string name="visit_review">Preview</string>
+    <string name="qualified">%s/Success</string>
+    <string name="unqualified">%s/Failed</string>
+    <string name="n_upload">%s/Not upload</string>
+    <string name="new_panel">New</string>
+    <string name="notice">Promot</string>
+    <string name="null_survey">There is no available questionnaire data.</string>
+    <string name="start_record">Record</string>
+    <string name="take_photo">Photo</string>
+    <string name="too_frequently">Your operation is too frequently!</string>
+    <string name="sdcard_mount">Please mount SDCard!</string>
+    <string name="record_close">Recording function has been closed</string>
+    <string name="record_open">Recording function has been opened</string>
+    <string name="null_data">Data save failure, pleace check the survey file!</string>
+    <string name="warn">Warn</string>
+    <string name="sure_exist">The interview, that the exit interview?</string>
+    <string name="null_show">Sorry,There is no available questionnaire can be preview.</string>
+    <string name="image_style">Select a way</string>
+    <string name="image_ok">OK</string>
+    <string name="image_obtain">Get photo</string>
+    <string name="image_null">No photo</string>
+    <string name="image_cancle">Cancel</string>
+    <string name="camera_select">Select the camera</string>
+    <string name="camera_take_pictures">Camera</string>
+    <string name="selection_album">Select album</string>
+    <string name="_continue">Continue</string>
+    <string name="start_upload">Upload</string>
+    <string name="null_upload">Upload exception</string>
+    <string name="finish_survey_">Questionaire "%s" successed upload,start upload records and photos file!</string>
+    <string name="finish_survey">Questionaire "%s" successed upload!</string>
+    <string name="pause">Pause</string>
+    <string name="err_net">Failure：The network connection is unusual, please try again later!</string>
+    <string name="err_upass">Failure：Your user name or password mistake!</string>
+    <string name="total_file" formatted="false">Total files:%s/%s</string>
+    <string name="total_byte">Bytes:%s</string>
+    <string name="total_byte_" formatted="false">Total bytes:%s/%s</string>
+    <string name="uploading">Uploading</string>
+    <string name="uploaded">Completed</string>
+    <string name="media_file_upload_success">Pictures and audio files uploaded successfully!</string>
+    <string name="input_feedback">Please fill in your opinion.</string>
+    <string name="check_new_version">Check update</string>
+    <string name="share">Share my apps</string>
+    <string name="feed_back">Feedback</string>
+    <string name="about_dap">About DAP</string>
+    <string name="contact_way">Contact us</string>
+    <string name="tel" formatted="false">&#160;&#160;&#160;&#160;&#160;&#160;TEL&#160;&#160;&#160;:&#160;&#160;86&#8211;10&#8211;57135608</string>
+    <string name="email" formatted="false">&#160;&#160;&#160;&#160;MAIL&#160;&#160;&#160;:&#160;&#160;zhouhong@dapchina.cn</string>
+    <string name="www">Website&#160;&#160;:&#160;&#160;www.dapchina.cn</string>
+    <string name="feedback_success">Your feedback is successful!</string>
+    <string name="feedback_failue">Sorry, your feedback failure!</string>
+    <string name="select_share_style">Please select sharing mode</string>
+    <string name="msg_share">#DapSoftware(BeijingChina)Co.Ltd# dear,I am using DAP Android Survey-Expert,Functional Very Powerful!More information, please attention www.dapchina.cn!</string>
+    <string name="update_app">Update</string>
+    <string name="fail_update">Application information for failure!</string>
+    <string name="best_new">The current version is the latest!</string>
+    <string name="version_info">Check to the new version(%s),Whether to upgrade?</string>
+    <string name="app_fullname">Survey-Expert</string>
+    <string name="copyright">DapSoftware(BeijingChina)Co.Ltd Copy right</string>
+    <string name="copyright_detail">Copyright © 2008&#8211;2015 DAP Corp. All Rights Reserved.</string>
+    <string name="down_refresh">Pull-refresh</string>
+    <string name="previous_update">The last update time</string>
+    <string name="free_refresh">Loosen the refresh</string>
+    <string name="refreshing">Refreshing&#8230;</string>
+    <string name="load_more">For more</string>
+    <string name="recently_refresh">Last updated:%s</string>
+    <string name="visit_time">Datetime: %s</string>
+    <string name="visitor">Visitor: %s</string>
+    <string name="null_addr">Address: Failed to get</string>
+    <string name="visit_addr">Address: %s</string>
+    <string name="null_str">State: js Returns an empty string</string>
+    <string name="giveup">Give up</string>
+    <string name="img_change">Rotate 90 degrees</string>
+    <string name="try_again">Try again</string>
+    <string name="write_failure">State: Data write failure</string>
+    <string name="visit_successfully">State: Success</string>
+    <string name="visited_interrupt">State: Interrupt</string>
+    <string name="terminal">Terminal</string>
+    <string name="account_frozen">Your account has been frozen!</string>
+    <string name="error_permission">Authorization error!</string>
+    <string name="login_error" formatted="false">Login failure, error code: %d.</string>
+    <string name="web_visit">Web</string>
+    <string name="android_visit">Android</string>
+    <string name="question_syb" formatted="false">Please enter the number in half-width mode,minimum value %s,maximum value %s,The sum of Numbers of the title %s</string>
+    <string name="question_max_min" formatted="false">Please enter the number in half-width mode,minimum value %s,maximum value %s</string>
+    <string name="question_sum" formatted="false">The sum of Numbers of the title Should %s</string>
+    <string name="question_random">(Random)</string>
+    <string name="question_bound" formatted="false"> (Most answers %d number) (Least answer %d number)</string>
+    <string name="bound_max">Up to Answer %d number.</string>
+    <string name="bound_min">Answer at least %d number.</string>
+    <string name="bound_matrix_max">Check matrix each row,Up to Answer %d number.</string>
+    <string name="bound_matrix_min">Check matrix each row,Answer at least %d number.</string>
+    <string name="question_coutinuous">Continuous column options shall not exceed the same answer %d number</string>
+    <string name="row_less">Evey row must be selected.</string>
+    <string name="null_questions">Please confirm whether the questionnaire is generated correctly.</string>
+    
+     <!-- zz添加 -->
+    <string name="registe_acount">Powerful off-line survey system, free registration!</string>
+    <string name="free_server">free</string>
+    <string name="pay_server">pay</string>
+    <string name="exp_net_no_down">Sorry,your network is not good!Unable to download the trial survey</string>
+	<string name="start_dap">Just start my DAP journey</string>
+	<string name="start_dap_five">Start my DAP journey</string>
+	<string name="dap_no_tool">Survey-Expert,More than a survey tool</string>
+	<string name="first_step">First,You can try our free tool</string>
+	<string name="second_step">Second,You can register on our account</string>
+	<string name="third_step">Third,You can start DAP journey</string>
+	<string name="sucess_regist">Your registration was successful,Please enter the activate email validation has been completed!</string>
+	<string name="sucess_fail">Has been in existence to this account,Your sign up Failed!</string>
+	<string name="no_login_no_click">Please login.</string>
+	<string name="edit_email">Please enter your email address</string>
+	<string name="write_email">Enter email address to complete the validation</string>
+	<string name="email_submit">Send confirm</string>
+	<string name="email_cancel">Send cancel</string>
+	<string name="write_email_empty">Enter the email is empty</string>
+	<string name="write_email_error">Enter email address format is not correct</string>
+	<string name="net_exception">Network is not connected,Can not send mail</string>
+	<string name="screen_send_mail">Validation is being sent to your mailbox..</string>
+	<string name="mystery_title">DAP Survey-Expert Registration verification</string>
+	<string name="dear_visite">Dear customer,</string>
+	<string name="back_info">Thank you for Register Survey-Expert,Please click on the link below to verify your Email：</string>
+	<string name="regist_url">http://free.survey-expert.cn/alisoft/OfflineRegisterVerification.asp?userId=%1$s&amp;userPsd=%2$s&amp;mailAddress=%3$s</string>
+	<string name="last_info">DapSoftware(BeijingChina)Co.Ltd</string>
+	<string name="file_send_success">Send email successfully,Please go to email lookup</string>
+	<string name="net_no_regist">Network is not connected,Can not be registered</string>
+	<string name="sucess_fail_reason">Registration failed,Please check any special characters,Re-enter!</string>
+	<string name="user_name_test">Visitor</string>
+	<string name="pay_no_regist">Payment address not registered free of charge</string>
+	<string name="edit_survey_help_one">Below I introduce how to create the questionnaire on our web platform.</string>
+	<string name="edit_survey_help_two">It is free server domain name address：<a href="http://free.survey-expert.cn/">http://free.survey-expert.cn/</a></string>
+	<string name="edit_survey_help_three">First log in the above domain name,In the login page enter just successful registration user name password to log in,Will into the list of items,Click on the new project can create what we want to use the questionnaire.Questionnaire to create detailed steps can consult our video to help：<a href="http://free.survey-expert.cn/help/help.html">http://free.survey-expert.cn/help/help.html</a></string>
+	<string name="edit_survey_help_four">To create the questionnaire,We will put the questionnaire for the android client use the download package.Will tell us how the generated in the help.Finally, we can in our experience we just edited the questionnaire on the tablet.Is very simple.To give it a try.</string>  
+    <string name="export_xml">Export data\n(To view the “/sdcard/CAPI_DATA_EXPORT/..” directory)</string>
+    <string name="copy_xml_finish">Data export completed.</string>
+    <string name="traffic">Traffic</string>
+    <string name="transparency">Transparency</string>
+    <string name="my_location">My Location</string>
+
+    <string-array name="layers_array">
+        <item>@string/normal</item>
+        <item>@string/hybrid</item>
+        <item>@string/satellite</item>
+        <item>@string/terrain</item>
+    </string-array>
+
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="map_not_ready">Map is not ready yet</string>
+    <string name="download_inner">Download\nInner\nmembers</string>
+    <string name="update_inner">Update\nInner\nmembers</string>
+    <string name="inner_failure">Operation failure.</string>
+    <string name="app_data_invalidate">Please shoutdown the app and restart.</string>
+    <string name="down_survey_first">Please download survey first.</string>
+    <!-- 
+    <string name="label_addto1">StoreID</string>
+    <string name="label_addto2">Store</string>
+    <string name="label_addto3">Address</string>
+    <string name="label_addto4">Brank</string>
+     -->
+    <string name="install_google_service">Please install the file google_play.apk \nand the file google_play_store.apk
+        \nin the “/mnt/sdcard/” directory.</string>        
+    <string name="modify">Modify</string>   
+    <string name="input_keyword">Please input the query keywords!</string>
+    <string name="value_repeat">The value cannot be repeated.</string>
+    <string name="num_no_repeat">, number cannot be repeated</string>
+    <string name="input_category">Select</string>
+    <string name="input_category_please">Please select the category to query!</string> 
+    <string name="clear_data">Clear application cache</string>
+    <string name="disk_info" formatted="false">Memory(Available/Total):\t%sM / %sM\nSDCard:%sM / %sM</string>
+    <string name="net_info" formatted="false">Total flow:\t%s\nDownload flow:\t%s\nUpload traffic:\t%s</string>
+	 <string name="control_soundControl">Tuning</string>
+    <string name="control_soundControl_mute">Mute</string>
+    <string name="error_video_msg_title">Sorry </string>
+	<string name="error_video_msg">Start the other player to play?</string>
+	<string name="clear_finish">Done.</string>
+	<string name="move_record_finish">Move files finish.</string>
+	
+	<!-- zz添加 -->
+    <string name="date_equal_error">Question %1$s of the value of the item %2$s should be equal to question %3$s of the value of the item %4$s.</string>
+    <string name="date_upper_equal_error">Question %1$s of the value of the item %2$s should be greater than or equal to question %3$s of the value of the item %4$s.</string>
+    <string name="date_no_equal_error">Question %1$s of the value of the item %2$s should not be equal to question %3$s of the value of the item %4$s.</string>
+    <string name="date_upper_error">Question %1$s of the value of the item %2$s should be greater than question %3$s of the value of the item %4$s.</string>
+   <string name="date_low_equal_error">Question %1$s of the value of the item %2$s should be less than or equal to question %3$s of the value of the item %4$s.</string>
+   	<string name="date_low_error">Question %1$s of the value of the item %2$s should be less than question %3$s of the value of the item %4$s.</string>
+    <string name="max_value" formatted="false">Question item %s maximum not greater than %s</string>
+    <string name="min_value" formatted="false">Question item %s minimum not less than %s</string>
+    <string name="format_no_number">You fill in the item %s is not an integer or decimal.</string>
+    <string name="format_no_float_number">You fill in the item %s is not an integer.</string>
+	<string name="format_no_word_and_number">You fill in the item %s is not a figure or English.</string>
+	<string name="format_no_email">You fill out is not the standard E-mail format in the item %s.</string>
+	<string name="please_input_email">Please input E-mail.</string>
+	<string name="edit_min_to_max">minimal value=%1$s,maximum value=%2$s.</string>
+	<string name="edit_min">minimal value=%s.</string>
+	<string name="edit_max">maximum value=%s.</string>
+	
+	<string name="old_max_value" formatted="false">The maximum value is not greater than %s</string>
+    <string name="old_min_value" formatted="false">The minimum not less than %s</string>
+    <string name="old_format_no_number">You fill out is not a number.</string>
+	<string name="question_no_repeat">Numbers can\'t repeat.</string>
+	<string name="question_num_sum">The sum of the question is %s.</string>
+	<string name="question_num_sum_no_repeat">The sum of the question is %s,Numbers can\'t repeat.</string>
+	<string name="no_picture">This question has not been photographed.</string>
+	
+	<!-- 8.30 -->
+	
+	<string name="item_no_required">You fill in the item %s is required, please fill in.</string>
+	<string name="notice_required">*</string>
+	
+	<!-- 11.21 -->
+	<string name="unex">Capture the Exception,exit program,Exceptions will be sent to the email</string>
+	<string name="error_message">%1$s的错误</string>
+	<string name="get_message">错误信息:\n帐号:%1$s,mac地址：%2$s,路径:%3$s</string>
+	<string name="send_all">Complete error message sent</string>
+	<string name="doing_send">Is the error message is sent to the dap email,In order to correct mistakes better service to users</string>
+	<string name="input_msg">Input your message</string>
+	
+	<!-- 12.2 -->
+	<string name="input_pwd">Please enter the verify password</string>
+	<string name="null_reverse_input">Is empty, please enter again</string>
+	<string name="pwd_no">wrong password</string>
+	<!-- 单题签名 -->
+	<string name="no_sign">This subject is not single signature.</string>
+	<string name="free_ip">Free Domain：</string>
+	<string name="pay_ip">Pay Domain：</string>
+	<string name="input_pay_ip">Please enter a paid domain name</string>
+	<string name="input_free_ip">Please provide a free domain name</string>
+	<string name="real_free_ip">free.survey-expert.cn</string>
+	<!-- <string name="real_pay_ip">60.214.105.254</string> -->
+	<string name="real_pay_ip">183.207.183.205:88</string>
+	<string name="free">free:</string>
+    <string name="pay">pay:</string>
+    <string name="clear">clear</string>
+	 <string name="userid_null">userId is null</string>
+	 <string name="fs_null">date is null</string>
+	 <string name="down_success">down_success</string>
+	 <!-- 统计局 -->
+	  <string name="word_explain">interview explain</string>
+	  <string name="s_word_explain">of interview explain</string>
+	  <string name="set_size">Set the answer font size：</string>
+	  <string name="input_size">The input you want to set the font size</string>
+	  <string name="set_survey_size_show" formatted="false">Set the paper size(The current size of the %s)</string>
+	 <string name="see_survey_size">The current preview of the font size</string>
+	 <string name="must_size">The font can only set it to 12-50 Between the size！</string>
+	<string name="app_name_one">Qingdao bureau of statistics</string>
+	<string name="login_user_error">The user name or password error</string>
+	<string name="is_submit">If confirm to submit</string>
+	<string name="survey_sys">The census electronic collection and management system</string>
+	
+    
+	<string name="tab_local_kg">Visit</string>
+    <string name="tab_author_kg">Download</string>
+    <string name="tab_upload_kg">Upload</string>
+    <string name="tab_setting_kg">More</string>
+     <string name="offline_excute_opt">Offline login cannot perform download upload operations</string>
+     <string name="opt_word">The instructions for options</string>
+     <string name="phone_no_permission">Your device can\'t read and write access, keep the error information to external sdcard!</string>
+ 	<string name="opt_position">Now temporarily no track on the map</string>
+ 	<string name="choose_date">Select Date</string>
+	 
+ 		<!-- 知识库文字 -->
+ 	<string name="knowledge_local">repository</string>
+ 	<string name="id">ID</string>
+ 	<string name="kcontent">question</string>
+ 	<string name="kind">classify</string>
+ 	<string name="know_download">Download the knowledge base</string>
+ 	<string name="no_kind">Unclassified</string>
+ 	<string name="know_update">Update the knowledge base</string>
+ 	<string name="know_question_info">The knowledge base information problem</string>
+ 	<string name="know_in_kind">class</string>
+ 	<string name="know_detail_content">detail</string>
+ 	<string name="know_attach_list">attachment list</string>
+ 	<string name="deafult">default</string>
+ 	<string name="know_attach">Have downloaded attachments</string>
+ 	<string name="no_check_file">Did not find the specified file, please download the knowledge base in the retry again!</string>
+ 	<string name="know_question">LKB</string>
+ 	<string name="camera_take_recording">Record Video</string>
+ 	<string name="video_obtain">Get Video</string>
+ 	
+ 	<string name="please_login">please log in first</string>
+ 	
+ 	<!-- 14.1.24 -->
+	<string name="reason">Photo files and recording file upload is complete!But due to quit,Have to manually click to finish upload to upload the questionnaire.</string>
+	<string name="media_file_upload_success_start">Photo files and recording file upload is complete!Start to upload the questionnaire.</string>
+	<string name="start_upload_survey">Start to upload the questionnaire</string>
+	 <string name="finish_survey_other">Photo recording report "%s" has been completed!</string>
+	 <string name="finish_survey_start">Start to upload the "%s" questionnaire recording photo files!</string>
+	 <string name="do_upload_start">Are uploading questionnaire,Please send out a under continue to upload!</string>
+	   <!-- 兼容性  202.85.212.198/IMS   www.ipsoschina.cn 美国服务器 -->
+	 <string name="real_pay_ipsos_ip">www.survey-expert.com/web</string> 
+	 <!-- 版本控制  202.85.212.198/IMS  IMS ipsos-->
+	 <string name="real_pay_ims_ip">202.85.212.198/imshealth</string>
+	 <string name="real_pay_ipsos1_ip">www.ipsoschina.cn</string>
+	 <string name="real_farmbank_ip">202.85.212.198/abc</string>
+	  <string name="user_error">User name wrong</string> 
+	  <string name="image_obtain_fail">Get photo fail</string>
+</resources>

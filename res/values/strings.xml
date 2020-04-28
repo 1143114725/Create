@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    	<string name="real_pay_ip">223.112.24.66:88</string>
+
+    <string name="title_activity_main">访问专家</string>
+    <string name="app_name">访问专家</string>
+    <string name="home_page">首页</string>
+    <string name="number">99+</string>
+    <string name="title">体验问卷</string>
+    <string name="content">个人研究者免费使用，支持手机或网页进行连接跟踪</string>
+    <string name="user_name">未登录</string>
+    <string name="introduce">德派软件自主研发的访问专家软件</string>
+    <string name="upload">上传</string>
+    <string name="knowleage">知识库</string>
+    <string name="set">设  置</string>
+    <string name="brief_introduction">德派面向企业和专业机构提供访问专家软件租用销售，调查技术支持，我们已经服务全球600家客户</string>
+    <string name="company_name">德派软件(北京)有限公司</string>
+    <string name="telphone">010-52886589</string>
+    <string name="login">登录</string>
+    <string name="regist">注册</string>
+    <string name="please_input_username">请填写用户名</string>
+    <string name="please_input_password">请填写登录密码</string>
+    <string name="pay_login">专业版登陆</string>
+    <string name="free_login">免费版登陆</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="please_set_username">请设置用户名</string>
+    <string name="please_set_password">请设置登录密码(6-20个字符)</string>
+    <string name="pay_regist">专业版注册</string>
+    <string name="free_regist">免费版注册</string>
+    <string name="record_file">录音</string>
+    <string name="subscibe_center">项目中心</string>
+    <string name="quota_center">配额</string>
+    <string name="quota_name">配额名称</string>
+    <string name="quota_success">成功</string>
+    <string name="quota_text">配额说明</string>
+    <string name="quota_update">配额更新</string>
+    <string name="searce">搜索</string>
+    <string name="survey_landspace">问卷切换至横屏</string>
+    <string name="portal">竖屏</string>
+    <string name="survey_mapspace">问卷开启地图监控</string>
+    <string name="survey_mapopen">开启</string>
+    <string name="survey_mapclose">关闭</string>
+    <string name="set_survey_size">设置答卷字号</string>
+    <string name="big">大</string>
+    <string name="set_ip">设置域名</string>
+    <string name="dapchina_ip">dapchina.cn</string>
+    <string name="update_apk">检测更新</string>
+    <string name="current_version">当前版本3.0</string>
+    <string name="total_M">总耗流量</string>
+    <string name="down_M">下载流量</string>
+    <string name="upload_M">上传流量</string>
+    <string name="memory_total">内存(剩余/总共)</string>
+    <string name="sdcar_total">SDCard(剩余/总共)</string>
+    <string name="clean_cache">清除应用缓存</string>
+    <string name="change_save_file">切换文件储存目录</string>
+    <string name="data_monitor">监测数据</string>
+    <string name="export_data">导出数据</string>
+    <string name="check_data">(请查看SdCard/CAPI_DATA_EXPERT/...目录)</string>
+    <string name="survey_title">公众体验问卷</string>
+     <string name="download_sum">现有问卷</string>
+     <string name="completed_num">已完成问卷</string>
+      <string name="uploaded_num">已上传问卷</string>
+      <string name="unUploaded_num">未上传问卷</string>
+    <string name="recod_video">音频/视频</string>
+    <string name="more_thing">类别</string>
+    <string name="fw">访　问</string>
+    <string name="review">预　览</string>
+    <string name="map">地图</string>
+    <string name="current_position">当前位置：</string>
+    <string name="doing_local">没有定位成功</string>
+    <string name="read_map">查看地图</string>
+    <string name="read_quota">查看配额</string>
+    <string name="no_quota">没有可下载的配额</string>
+    <string name="read_ins">阅读说明</string>
+    <string name="read_voice">查看录音 (%1$s)</string>
+    <string name="read_vedio">查看视频 (%1$s)</string>
+    <string name="select_all">全选</string>
+	<string name="all_upload">全部上传</string>
+	<string name="select_null">反选</string>
+	<string name="question_info">问题信息</string>
+	<string name="survey_ins">支持Android终端，超乎想象的人性化触感，将问卷、GPS定位、拍照、录音融合为一。支持 在线环境、离线环境下的数据采集,上报数据。</string>
+	<string name="visit">开始访问</string>
+	<string name="welcome_user">★ 欢迎进入监测数据页面，请您不要退出，技术人员正努力帮您调试。</string>
+	<string name="send">发送</string>
+	<string name="back_question">上一题</string>
+	<string name="next_question">下一题</string>
+	<string name="ok">确定</string>
+	<string name="null_list">NO RECORDS</string>
+	<string name="sorry_no_result">没有找到结果</string>
+	<string name="no_title">没有标题</string>
+	
+	<string name="recode">录音</string>
+	<string name="camera">拍照</string>
+	<string name="video">摄像</string>
+	<string name="input_name">请输入项目名称</string>
+	<string name="inner_name">（有内部受邀名单）</string>
+    <string name="land_port_change_p">问卷切换至横屏</string>
+    <string name="land_port_change_l">问卷切换至竖屏</string>
+    <string name="verital">竖屏</string>
+    <string name="prot">横屏</string>
+    <string name="middle">中</string>
+    <string name="small">小</string>
+	<string name="version">当前版本 %s</string>
+	<string name="no_cache">无需清除应用缓存</string>
+	<string name="change_save_sdcard">SDCard</string>
+	<string name="change_save_inner">内部卡</string>
+	<string name="choice_mode">选择的类别为：</string>
+	<string name="no_find">很抱歉,没有找到该关键字</string>
+	<string name="open_photo">打开图库</string>
+	<string name="close_photo">关闭图库</string>
+	<string name="no_upload">没有选择要上传的项目</string>
+	 <string name="finish_survey_others">照片录音视频已经上报完成!</string>
+	 <string name="finish_survey_starts">开始上传问卷的录音照片视频文件!</string>
+	  <string name="finish_surveys">问卷上报完成!</string>
+	 <string name="re_upload">又发现新附件，请把附件上传后在上传数据!</string>
+	  <string name="null_upload">上传数据为空</string>
+	  <string name="_continue">　继续　</string>
+    <string name="pause">　暂停　</string>
+    <string name="no_login">请先登录您的帐号</string>
+     <string name="update_success">更新完成</string>
+     <string name="once_again">再次按返回键退出</string>
+     <string name="exit_fw">是否注销访问专家帐号？</string>
+     <string name="exit_ok">注销成功</string>
+     <string name="compare_survey">正在比对更新问卷...</string>
+     <string name="no_explain">暂无说明</string>
+     <string name="ftp_conect_fail">连接服务器失败</string>
+     <string name="ftp_dire_fail">创建目录失败或者没有找到目录</string>
+     <string name="ftp_workdire_fail">创建工作目录失败或者没有找到工作目录</string>
+     <string name="dire_fail">目录创建失败</string>
+     <string name="file_failed">上传文件失败</string>
+	 <string name="file_exist">文件已经存在</string>
+	<string name="remote_bigger_local">远程文件大于本地文件</string>
+	<string name="delete_Remote_Faild">删除远程文件失败</string>
+	<string name="no_reason_reupload">未知原因，请重新选择您要上传的项目，重新点击上传!</string>
+	<string name="no_reason_reupload_exit">由于网络中断未获取服务器断点，请等待2分钟后重新上传即可，谢谢!</string>
+	<string name="word_ins">的访前说明</string>
+	<string name="word_num">问卷编号:    </string>
+	<string name="word_time">发布时间:    </string>
+	<string name="word_nohave">内部名单:    无</string>
+	<string name="word_have">内部名单:    有</string>
+	<string name="read_attach">查看删除附件</string>
+	
+	<!-- 大树开始     邮箱不存在 -->
+    <string name="email_not_exit">邮箱不存在，请重新输入</string>
+    <string name="regisit_fail">注册失败</string>
+    <string name="knowlege_null">知识库为空</string>
+    <string name="knowlege_accessory_downfail">知识库附件下载失败</string>
+    <string name="knowlege_accessory_not_exsit">知识库附件不存在</string>
+    <string name="map_no_recored">这一天的行程轨迹没有记录</string>
+    <string name="survey_title_before">问卷标题</string>
+    <string name="survey_id">问卷编号</string>
+    <string name="publish_time">发布时间</string>
+    <string name="download_url">下载地址</string>
+    <string name="inner_done">内部名单</string>
+    <string name="survey_description">详细说明</string>
+    <!-- 题外关联   显示 判断  -->	
+	<string name="question_outying_display_right">本题显示行数量等于%1$s的数字回答项%2$s的填写数</string>
+	<string name="search_review_question">请输入题目的编号</string>
+	<string name="first_question">第一题</string>
+	<string name="resume_load">题目编号不存在，请重新输入</string>
+	<string name="format_wrong">输入格式不对，应为数字</string>
+	<string name="current_no_explain">目前没有说明，请到网页端设置!</string>
+	<string name="visit_explain">访前说明</string>
+	<string name="current_time">当前时间</string>
+	<!-- 题外关联  大树  内部关联   之和   判断 -->
+	<string name="question_innerying_error">本题除选项%1$s之外的所有数字选项之和不等于选项%1$s的值</string>
+	<!-- 大树 重置  字段 -->
+	<!-- 重置功能 -->
+    <string name="reset">重置</string>
+    <string name="reset_fail">重置失败</string>
+    <string name="no_need_reset">该项目没有可重置的数据</string>
+	<string name="wait_pro">请耐心等待%s....</string>
+	<string name="dialog_content">正在加载数据,请稍候....</string>
+	<string name="less_compare">, 剩余重置比对</string>
+	<string name="reset_success">重置功能完成</string>
+	<!-- 重置以上   -->
+	<!-- 大树拒访 -->
+	<string name="choiceType">选择状态</string> 
+	<string name="no_fang">%1$s</string> 
+	<string name="no_fang_mao">访问状态: %1$s</string> 
+	<string name="each_answer_associated">回答项关联</string>
+	<string name="answer_value_reference">的回答值-引用</string>
+	<string name="answer_value_rejection">的回答值-排斥</string>
+	<string name="option_top">选项置顶</string>
+	<string name="option_bottom">选项置底</string>
+	<string name="sum">SUM</string>
+	<string name="inner_refrense">本题是选项内部关联</string>
+	<string name="aerial_mode">卫星模式</string>
+	<string name="traffic_mode">交通模式</string>
+	<string name="empty">空</string>
+	<string name="no_meet">用户名或密码长度太长，不合要求</string>
+	<string name="accessory">附件</string>
+	<string name="view_attachments">——(点击可查看附件)</string>
+	<string name="twenty_meters">20米</string>
+	<string name="fifty_meters">50米</string>
+	<string name="one_hundred_meters">100米</string>
+	<string name="two_hundred_meters">200米</string>
+	<string name="five_hundred_meters">500米</string>
+	<string name="one_km">1公里</string>
+	<string name="two_km">2公里</string>
+	<string name="five_km">5公里</string>
+	<string name="ten_km">10公里</string>
+	<string name="twenty_km">20公里</string>
+	<string name="twenty_five_km">25公里</string>
+	<string name="fifty_km">50公里</string>
+	<string name="one_hundred_km">100公里</string>
+	<string name="two_hundred_km">200公里</string>
+	<string name="five_hundred_km">500公里</string>
+	<string name="one_thousand_km">1000公里</string>
+	<string name="two_thousand_km">2000公里</string>
+	<string name="intevention_notice">提示</string>
+	<string name="decimel_places_no_meet">小数点后必须保留两位有效数字</string>
+	<string name="sequence_repeat">选项值不能出现重复</string>
+	<string name="luoji_wrong">逻辑错误</string>
+    <!-- 大树结束  知识库为空 -->
+	
+	
+	<!-- 原访问专家 -->
+    <string name="start">开始</string>
+    <string name="cancle">取消</string>
+    <string name="question_must">(必填项目)</string>
+    <string name="question_order">Q%d.</string>
+    <string name="msg_must">本题是必填项, 请作答.</string>
+    <string name="msg_null_edit">您的文本框未填.</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="secord">秒</string>
+    <string name="tab_local">访问</string>
+    <string name="tab_author">下载</string>
+    <string name="tab_upload">上传</string>
+    <string name="tab_setting">更多</string>
+    <string name="please_wait">请稍候....</string>
+    <string name="exit_title">退出访问专家?</string>
+    <string name="login_account_hint">帐号</string>
+    <string name="login_password_hint">密码</string>
+    <string name="welcome_version">Version %s</string>
+    <string name="welcome_foot">www.dapchina.cn</string>
+    <string name="login_offline">离 线 登 录</string>
+    <string name="login_online">在 线 登 录</string>
+    <string name="survey_name">项目名称</string>
+    <string name="start_time">开始时间</string>
+    <string name="update_time">更新时间</string>
+    <string name="completed">已完成</string>
+    <string name="unupload">未上传</string>
+    <string name="operation">操作</string>
+    <string name="download">下载</string>
+    <string name="update">更新</string>
+    <string name="exp_net">抱歉,您的网络不佳!</string>
+    <string name="null_userid">请填写帐号.</string>
+    <string name="null_pwd">请填写密码.</string>
+    <string name="fail_login">登录失败!</string>
+    <string name="sucess_login">登录成功!</string>
+    <string name="welcom_user">欢迎, %s</string>
+    <string name="upload_incompleted">上传未完成</string>
+    <string name="upload_completed">上传已完成</string>
+    <string name="back">返回</string>
+    <string name="model_map">地图模式</string>
+    <string name="model_visit">访问模式</string>
+    <string name="road_line">路线</string>
+    <string name="start_point_hit">起点:</string>
+    <string name="end_point_hit">终点:</string>
+    <string name="search_city">您要查询的城市:</string>
+    <string name="search_city2">您要到达的城市:</string>
+    <string name="search_hit">请输入您要搜索的关键字</string>
+    <string name="map_address">当前位置: %s</string>
+    <string name="null_city">请填写您要查询的城市.</string>
+    <string name="null_start">请填写您的起点.</string>
+    <string name="null_end">请填写您的终点.</string>
+    <string name="null_city2">请填写您要去的城市.</string>
+    <string name="local_id">本地ID</string>
+    <string name="upload_feedid">服务器ID</string>
+    <string name="visit_state">访问状态</string>
+    <string name="visit_state_noaccess">未访问</string>
+    <string name="visit_state_interrupt">中断待续</string>
+    <string name="visit_state_completed">已完成</string>
+    <string name="visit_noaccess">@string/tab_local</string>
+    <string name="visit_interrupt">继续访问</string>
+    <string name="visit_review">预览</string>
+    <string name="qualified">%s/符合</string>
+    <string name="unqualified">%s/不符合</string>
+    <string name="n_upload">%s/未报</string>
+    <string name="new_panel">新建</string>
+    <string name="notice">提示</string>
+    <string name="null_survey">问卷不存在,请重新下载.</string>
+    <string name="start_record">录音</string>
+    <string name="take_photo">拍照</string>
+    <string name="too_frequently">您操作过于频繁!</string>
+    <string name="sdcard_mount">请挂载SDCard!</string>
+    <string name="record_close">录音功能已关闭</string>
+    <string name="record_open">录音功能已开启</string>
+    <string name="null_data">访问状态: 保存数据为空，请检查问卷js程序</string>
+    <string name="warn">警告</string>
+    <string name="sure_exist">访问进行中，确定退出访问?</string>
+    <string name="null_show">抱歉,您的问卷暂时无法预览.</string>
+    <string name="image_style">选择照片方式</string>
+    <string name="image_ok">确认照片</string>
+    <string name="image_obtain">获得照片</string>
+    <string name="image_null">没有选择照片</string>
+    <string name="image_cancle">取消照片</string>
+    <string name="camera_select">选择拍照</string>
+    <string name="camera_take_pictures">相机拍照</string>
+    <string name="selection_album">相册选择</string>
+    <string name="start_upload">开始上传</string>
+    <string name="finish_survey_">问卷 "%s" 上报完成, 开始上传录音照片文件!</string>
+    <string name="finish_survey">问卷 "%s" 上报完成!</string>
+    <string name="err_net">上报失败：网络异常，请稍后再试!</string>
+    <string name="err_upass">上报失败：用户名或密码错误!</string>
+    <string name="total_file" formatted="false">文件个数:%s/%s</string>
+    <string name="total_byte">总字节数:%s</string>
+    <string name="total_byte_" formatted="false">总字节数:%s/%s</string>
+    <string name="uploading">上传中</string>
+    <string name="uploaded">已完成</string>
+    <string name="media_file_upload_success">照片文件和录音文件上传完成!</string>
+    <string name="input_feedback">请填写您的意见.</string>
+    <string name="check_new_version">检测更新</string>
+    <string name="share">分享应用</string>
+    <string name="feed_back">意见反馈</string>
+    <string name="about_dap">关于DAP</string>
+    <string name="contact_way">联系我们</string>
+    <string name="tel" formatted="false">\t\t电&#160;&#160;话:&#160;&#160;010&#8211;63517795</string>
+    <string name="email" formatted="false">\t\t邮&#160;&#160;箱:&#160;&#160;zhouhong@dapchina.cn</string>
+    <string name="www">\t\t网&#160;&#160;址:&#160;&#160;www.dapchina.cn</string>
+    <string name="feedback_success">您的意见反馈成功!</string>
+    <string name="feedback_failue">抱歉, 您的意见反馈失败!</string>
+    <string name="select_share_style">请选择分享方式</string>
+    <string name="msg_share">#德派软件（北京）有限公司# 亲,我正在使用德派Android访问专家,功能很强大哦!更多信息请关注www.dapchina.cn!</string>
+    <string name="update_app">更新应用</string>
+    <string name="fail_update">应用信息获取失败!</string>
+    <string name="best_new">当前版本已是最新的!</string>
+    <string name="version_info">检查到新版本(%s),是否升级?</string>
+    <string name="app_fullname">访问专家</string>
+    <string name="copyright">德派软件（北京）有限公司 版权所有</string>
+    <string name="copyright_detail">Copyright © 2008&#8211;2015 DAP Corp. All Rights Reserved.</string>
+    <string name="down_refresh">下拉刷新</string>
+    <string name="previous_update">上次更新</string>
+    <string name="free_refresh">松开刷新</string>
+    <string name="refreshing">正在刷新&#8230;</string>
+    <string name="load_more">获取更多</string>
+    <string name="recently_refresh">最近更新:%s</string>
+    <string name="visit_time">访问时间: %s</string>
+    <string name="visitor">记录人员: %s</string>
+    <string name="null_addr">访问地点: 未能获取</string>
+    <string name="get_addr_fail">已定位,获取地址名称失败,请检查网络</string>
+    <string name="get_addr_null">未定位</string>
+    <string name="visit_addr">访问地点: %s</string>
+    <string name="null_str">访问状态: js返回空串</string>
+    <string name="giveup">放弃</string>
+    <string name="img_change">旋转90度</string>
+    <string name="try_again">重试</string>
+    <string name="write_failure">访问状态: 数据写入失败</string>
+    <string name="visit_successfully">访问状态: 访问完成</string>
+    <string name="visited_interrupt">访问状态: 中断待续</string>
+    <string name="terminal">终止</string>
+    <string name="account_frozen">您的账号已经被冻结使用!</string>
+    <string name="error_permission">mac地址已经绑定到其他移动终端!</string>
+    <string name="login_error">登录失败，错误代码：%d</string>
+    <string name="web_visit">Web模式</string>
+    <string name="android_visit">开始访问</string>
+    <string name="question_syb" formatted="false">请在半角状态下输入数字 ，最小值 %s，最大值 %s，本题数字之和%s</string>
+    <string name="question_max_min" formatted="false">请在半角状态下输入数字 ，最小值 %s，最大值%s</string>
+    <string name="question_sum" formatted="false">本题数字之和应该%s</string>
+    <string name="question_random">(选项随机)</string>
+    <string name="question_bound" formatted="false"> (最多回答%d个) (最少回答%d个)</string>
+    <string name="bound_max">您最多可回答%d个.</string>
+    <string name="bound_min">您最少要回答%d个.</string>
+    <string name="bound_matrix_max">复选矩阵每行,最多可回答%d个.</string>
+    <string name="bound_matrix_min">复选矩阵每行,最少要回答%d个.</string>
+    <string name="question_coutinuous">连续回答相同列选项不超过%d个.</string>
+    <string name="row_less">矩阵必填项每一行必须回答.</string>
+    <string name="null_questions">请确认该问卷是否生成正确.</string>
+
+    <!-- zz添加 -->
+    <string name="registe_acount">强大离线调查系统，免费注册!</string>
+    <string name="free_server">免费版</string>
+    <string name="pay_server">专业版</string>
+    <string name="exp_net_no_down">抱歉,您的网络不佳!无法下载试用问卷</string>
+    <string name="start_dap">直接开始我的德派旅程</string>
+    <string name="start_dap_five">开始我的德派旅程</string>
+    <string name="dap_no_tool">访问专家，不只是个调查工具</string>
+    <string name="first_step">第一步，你可以免费体验我们的工具</string>
+    <string name="second_step">第二步，你可以注册我们的帐号</string>
+    <string name="third_step">第三步，你可以正式开启德派旅程</string>
+    <string name="sucess_regist">注册成功,请输入邮箱验证已完成激活!</string>
+    <string name="sucess_fail">已经存在该帐号,注册失败!</string>
+    <string name="no_login_no_click">您还没登录, 请先登录.</string>
+    <string name="edit_email">请输入邮箱</string>
+    <string name="write_email">输入邮箱已完成验证</string>
+    <string name="email_submit">确认发送</string>
+    <string name="email_cancel">取消发送</string>
+    <string name="write_email_empty">输出的邮箱为空</string>
+    <string name="write_email_error">输出的邮箱格式不正确</string>
+    <string name="net_exception">网络没有连接,无法发送邮件</string>
+    <string name="screen_send_mail">正在发送验证到你的邮箱中..</string>
+    <string name="mystery_title">德派访问专家注册验证</string>
+    <string name="dear_visite">亲爱的用户,</string>
+    <string name="back_info">感谢您注册访问专家，请点击下面的链接验证您的Email：</string>
+    <string name="regist_url">http://free.survey-expert.cn/alisoft/OfflineRegisterVerification.asp?userId=%1$s&amp;userPsd=%2$s&amp;mailAddress=%3$s</string>
+    <string name="last_info">德派软件(北京)有限公司</string>
+    <string name="file_send_success">发送邮箱成功,邮件请去您的邮箱查找</string>
+    <string name="net_no_regist">网络没有连接,不能注册</string>
+    <string name="sucess_fail_reason">注册失败，请检查有无特殊字符,请重新输入!</string>
+    <string name="user_name_test">游客</string>
+    <string name="pay_no_regist">付费地址不能免费注册</string>
+    <string name="edit_survey_help_one">下面我简单介绍下如何在我们web平台上创建问卷。</string>
+    <string name="edit_survey_help_two">这是免费服务器的域名地址：<a href="http://free.survey-expert.cn/">http://free.survey-expert.cn/</a></string>
+    <string name="edit_survey_help_three">首先登录上面的域名，在登录页面输入刚才成功注册的用户名密码进行登录，会进到项目列表，点击新建项目就可以创建我们要使用的问卷了。问卷创建的详细步骤可以参照我们的视屏帮助：<a href="http://free.survey-expert.cn/help/help.html">http://free.survey-expert.cn/help/help.html</a></string>
+    <string name="edit_survey_help_four">创建好问卷，我们就要把问卷生成为android端使用的下载包。帮助里会告诉我们怎么生成的。最后我们就可以在我们平板上体验我们刚才编辑好的问卷了。是不是很简单。来试一下吧。</string>
+    <string name="export_xml">导出数据\n(请查看“/sdcard/CAPI_DATA_EXPORT/..”目录)</string>
+    <string name="copy_xml_finish">数据导出完成.</string>
+    <string name="traffic">Traffic</string>
+    <string name="transparency">Transparency</string>
+    <string name="my_location">My Location</string>
+
+    <string-array name="layers_array">
+        <item>@string/normal</item>
+        <item>@string/hybrid</item>
+        <item>@string/satellite</item>
+        <item>@string/terrain</item>
+    </string-array>
+
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="map_not_ready">Map is not ready yet</string>
+    <string name="download_inner">下载内部名单</string>
+    <string name="update_inner">更新内部名单</string>
+    <string name="inner_failure">内部名单操作失败.</string>
+    <string name="app_data_invalidate">应用数据获取不全, 请退出重新进入应用.</string>
+    <string name="down_survey_first">请先下载问卷.</string>
+    <!--
+    <string name="label_addto1">益普索ID</string>
+    <string name="label_addto2">店铺名称</string>
+    <string name="label_addto3">店铺地址</string>
+    <string name="label_addto4">品牌</string>
+    -->
+    <string name="install_google_service">请到/mnt/sdcard/目录下\n安装google_play.apk和\ngoogle_play_store.apk</string>
+    <string name="modify">修改</string>
+    <string name="input_keyword">请输入查询关键字</string>
+    <string name="value_repeat">您填写值不能重复.</string>
+    <string name="num_no_repeat">, 数字不能重复</string>
+    <string name="input_category">选择类别</string>
+    <string name="input_category_please">请选择要查询类别</string>
+    <string name="clear_data">清除应用缓存</string>
+    <string name="disk_info" formatted="false">内存(剩余/总共):\t%sM / %sM\nSDCard(剩余/总共):%sM / %sM</string>
+    <string name="control_soundControl">调音</string>
+    <string name="control_soundControl_mute">静音</string>
+    <string name="error_video_msg_title">对不起 </string>
+    <string name="error_video_msg">是否启用其他播放器播放?</string>
+    <string name="clear_finish">清除完毕.</string>
+		<string name="move_record_finish">文件移动完成.</string>
+	
+	<!--  题外关联      之和  判断     -->
+	<string name="question_outying_error">本题数字回答项之和不等于Q%1$s的数字回答项%2$s的填写数</string>	
+	<!-- 大树  修改 地方  -->
+	<string name="question_outying_right">本题数字回答项之和等于%s</string>		
+		
+    <!-- ZZ加的 -->
+    <string name="date_equal_error">%1$s题第%2$s项的值应该等于%3$s题第%4$s项的值.</string>
+    <string name="date_upper_equal_error">%1$s题第%2$s项的值应该大于等于%3$s题第%4$s项的值.</string>
+    <string name="date_no_equal_error">%1$s题第%2$s项的值应该不等于%3$s题第%4$s项的值.</string>
+    <string name="date_upper_error">%1$s题第%2$s项的值应该大于%3$s题第%4$s项的值.</string>
+    <string name="date_low_equal_error">%1$s题第%2$s项的值应该小于等于%3$s题第%4$s项的值.</string>
+    <string name="date_low_error">%1$s题第%2$s项的值应该小于前面%3$s题第%4$s项的值.</string>
+    <string name="max_value" formatted="false">本题第%s项最大值不能大于 %s</string>
+    <string name="min_value" formatted="false">本题第%s项最小值不能小于 %s</string>
+    <string name="format_no_number">您填写的第%s项不是整数或者小数.</string>
+    <string name="format_no_float_number">您填写的第%s项不是整数.</string>
+	<string name="format_no_word_and_number">您填写的第%s项不是数字或者英文.</string>
+	<string name="format_no_email">您填写的第%s项不是标准E-mail格式.</string>
+	<string name="please_input_email">请输入E-mail.</string>
+	<string name="edit_min_to_max">最小值=%1$s,最大值=%2$s.</string>
+	<string name="edit_min">最小值=%s.</string>
+	<string name="edit_max">最大值=%s.</string>
+	
+	<string name="old_max_value" formatted="false">最大值不能大于 %s</string>
+    <string name="old_min_value" formatted="false">最小值不能小于 %s</string>
+    <string name="old_format_no_number">您填写的不是数字.</string>
+	<string name="question_no_repeat">数字不能重复.</string>
+	<string name="question_num_sum">本题数字之和%s.</string>
+	<string name="question_num_sum_no_repeat">本题数字之和%s,数字不能重复.</string>
+	<string name="no_picture">本题目还没有进行单题拍照.</string>
+	<!-- 8.30 -->
+	<string name="item_no_required">您填写的第%s项是必答题,请填写.</string>
+	<string name="notice_required">*</string>
+	<!-- 11.21 -->
+	<string name="unex">捕获到异常，退出程序，异常会发送到邮箱上</string>
+	<string name="error_message">%1$s的错误</string>
+	<string name="get_message">错误信息:\n帐号:%1$s,mac地址：%2$s,路径:%3$s</string>
+	<string name="send_all">错误信息发送完成</string>
+	<string name="doing_send">正在把错误信息发送到德派邮箱，以便改正错误更好的服务用户</string>
+	
+	<!-- 12.2 -->
+	<string name="input_pwd">请输入验证密码</string>
+	<string name="null_reverse_input">为空,请重新输入</string>
+	<string name="pwd_no">密码错误</string>
+	
+	<!-- 监控 -->
+	<string name="input_msg">输入您的消息</string>
+	<!-- 单题签名 -->
+	<string name="no_sign">本题目还没有进行单题签名.</string>
+	<string name="free_ip">免费域名：</string>
+	<string name="pay_ip">付费域名：</string>
+	<string name="input_pay_ip">请输入付费域名</string>
+	<string name="input_free_ip">请输入免费域名</string>
+	<string name="real_free_ip">free.survey-expert.cn</string>
+	<!-- 大树测试   82 上 测试排序   -->
+	<!-- <string name="real_pay_ip">192.168.143.82/nbs</string> -->
+
+	<!--<string name="real_pay_ip">192.168.1.200</string>-->
+	<!-- <string name="real_pay_ip">www.survey-expert.cn/newsurvey 76.12.86.84 www.survey-expert.com  192.168.1.109 www.survey-expert.cn/newsurvey  portal.dapchina.cn/nbs www.dapchina.cn/newsurvey</string> -->
+	<string name="free">免费:</string>
+    <string name="pay">付费:</string>
+    <string name="clear">清除</string>
+     <string name="uploading_wait">正在上传请稍后</string>
+     
+     <string name="question_bound_min" formatted="false">(最少回答%d个)</string>
+	 <string name="userid_null">userId为空</string>
+	  <string name="fs_null">date为空</string>
+	  <string name="down_success">下载成功</string>
+     <!-- 统计局 -->
+	  <string name="word_explain">访前说明</string>
+	  <string name="s_word_explain">的访前说明</string>
+	  
+	  <string name="set_size">设置答卷字体大小：</string>
+	  <string name="input_size">输入您要设置的字体的大小</string>
+	  <string name="set_survey_size_show" formatted="false">设置答卷字号(当前大小为%s)</string>
+	 <string name="see_survey_size">当前预览的字体大小</string>
+	 <string name="must_size">字体只能设置到12-50大小之间！</string>
+	<string name="app_name_one">青 岛 统 计 局</string>
+	<string name="login_user_error">用户名或者密码错误</string>
+	<string name="is_submit">是否确认提交</string>
+	<string name="survey_sys">人口调查电子采集管理系统</string>
+	<string name="tab_local_kg">访　问</string>
+    <string name="tab_author_kg">下　载</string>
+    <string name="tab_upload_kg">上　传</string>
+    <string name="tab_setting_kg">更　多</string>
+     <string name="offline_excute_opt">离线登录不能执行下载上传操作</string>
+     <string name="opt_word">选项的提示说明</string>
+     <string name="phone_no_permission">您的设备没有读写权限,不能把错误信息保存到外部sdcard中!</string>
+ 	<string name="opt_position">现在地图上暂时没有轨迹</string>
+ 	<string name="choose_date">选择日期</string>
+
+ 	<!-- 知识库文字 -->
+ 	<string name="knowledge_local">知识库</string>
+ 	<string name="id">ID</string>
+ 	<string name="kcontent">问题</string>
+ 	<string name="kind">分类</string>
+ 	<string name="know_download">下载知识库</string>
+ 	<string name="no_kind">未分类</string>
+ 	<string name="know_update">更新知识库</string>
+ 	<string name="know_question_info">知识库问题信息</string>
+ 	<string name="know_in_kind">所在分类</string>
+ 	<string name="know_detail_content">详细内容</string>
+ 	<string name="know_attach_list">附件列表</string>
+ 	<string name="deafult">默认</string>
+ 	<string name="know_attach">已下载附件</string>
+ 	<string name="no_check_file">没找到指定文件,请重新下载知识库在重试!</string>
+ 	<string name="know_question">本地知识库</string>
+ 	<string name="camera_take_recording">录制视频</string>
+ 	<string name="video_obtain">获得视频</string>
+ 	
+ 	<string name="please_login">请先登录</string>
+ 	
+ 	<!-- 14.1.24 -->
+	<string name="reason">照片文件和录音文件上传完成!但由于中途退出，得重新手动点击要上传问卷完成上传。</string>
+	<string name="media_file_upload_success_start">照片文件和录音文件上传完成!开始上传问卷。</string>
+	<string name="start_upload_survey">开始上传问卷</string>
+	 <string name="finish_survey_other">照片录音 "%s" 已经上报完成!</string>
+	 <string name="finish_survey_start">开始上传"%s"问卷的录音照片文件!</string>
+	 <string name="do_upload_start">正在上传问卷，请传完在继续上传下一个!</string>
+	 <!-- 兼容性  202.85.212.198/IMS 美国服务器  www.ipsoschina.cn-->
+	 <string name="real_pay_ipsos_ip">www.survey-expert.com/web</string> 
+	 <!-- 版本控制   IMS IPSOS-->
+	 <!-- 202.85.212.198/IMS -->
+	 <string name="real_pay_ims_ip">202.85.212.198/imshealth</string> 
+	 <string name="real_pay_ipsos1_ip">www.ipsoschina.cn</string>
+	 <string name="real_farmbank_ip">202.85.212.198/abc</string>
+	 
+	  <string name="user_error">用户名/密码错误</string> 
+	   <!-- 多选图片 -->
+    <string name="pick_from_album">从图库中选取</string>
+    <string name="cancel">取消</string>
+    <string name="photo">照片</string>
+    
+    <string name="image_obtain_fail">获得照片失败</string>
+     <string name="task_notice">任务提示</string>
+     <string name="upload_notice">上传任务</string>
+     <string name="survey_notice">更新问卷</string>
+      <string name="inner_notice">更新名单</string>
+      <string name="quota_notice">有配额名单更新</string>
+       <string name="no_login_no_compare">没有登陆无法显示任务提示</string>
+        <string name="no_net_no_compare">没有网络无法显示任务提示</string>
+        <string name="login_upadate">登陆更新</string>
+        <string name="login_upload">登陆后可上传项目</string>
+        <string name="login_survey">登陆后可更新项目</string>
+        <string name="login_inner">登陆后可更新项目名单</string>
+        <string name="input_content">输入查询内容</string>
+        <string name="new_add">　新增　</string>
+         <string name="remember_password">记住密码</string>
+         <string name="no_state">暂无状态</string>
+        <string name="no_null">不能为空</string>
+        <string name="new_submit">确认</string>
+         <string name="delete">是否删除编号为</string>
+        <string name="notes">的记录</string>
+</resources>
